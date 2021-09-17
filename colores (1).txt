@@ -1,0 +1,7 @@
+Azul
+#001d65
+PANTONE 662C
+
+Rojo
+#c51720
+PANTONE 485C

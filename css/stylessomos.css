@@ -1,0 +1,383 @@
+/* Fonts */
+@font-face {
+    font-family: 'Coolvetica-regular';
+    src: url('../fonts/CoolveticaBk-Regular.otf');
+}
+@font-face {
+    font-family: 'Coolvetica-hv';
+    src: url('../fonts/CoolveticaHv-Regular.otf');
+}
+@font-face {
+    font-family: 'Coolvetica-lt';
+    src: url('../fonts/CoolveticaLt-Regular.otf');
+}
+@font-face {
+    font-family: 'Coolvetica-bk';
+    src: url('../fonts/CoolveticaBk-Regular.otf');
+}
+/* Fin Fonts */
+#navbarNav{
+    justify-content: flex-end;
+    margin-right: 5rem;
+}
+.nav-item{
+    margin-right: 2rem;
+}
+.nav-item a{
+    color: #132163 !important;
+    font-family: 'Coolvetica-bk';
+}
+.sobre-nosotros{
+    background-image: url('../img/fondo-nosotros2.png');
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* Fondo QUIÉNES SOMOS */
+.fondo{
+    background-image: url('../img/quienessomos.png');
+    height: 108vh;
+    background-size: cover;
+    background-position: center;
+}
+.titulo-somos{
+    margin-top: 3rem;
+}
+.texto-somos p{
+    font-family: 'Coolvetica-bk';
+    color: #474747 !important;
+    opacity: 0.8;
+
+}
+.titulo-somos h2{
+    font-family: 'Coolvetica-hv';
+    color: #132263;
+    font-size: 3.3rem;
+}
+.titulo-somos h4{
+    font-family: 'Coolvetica-hv';
+    color: #be2124;
+    font-size: 2.2rem;
+}
+#somos{
+    padding-bottom: 4rem;
+}
+/* Cards */
+#row-special{
+    justify-content: center;
+    padding-top: 2rem;
+}
+.card{
+    padding:1rem;
+    background-color: #ededed !important;
+    border: none !important;
+    border-radius: 1rem !important;
+    box-shadow: 0px 10px 30px #080409 !important;
+    transition: all 0.3s ease-in-out;
+}
+.card:hover{
+transform: scale(1.1);
+}
+#card-1{
+    padding-bottom: 2rem !important;
+}
+#card-2{
+    padding-bottom: 2rem;
+}
+#card-3{
+    padding-bottom: 3rem;
+}
+#row-special{
+    justify-content: center;
+    padding-top: 2rem;
+}
+.card-title{
+    color: #132263;
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Coolvetica-hv';
+
+  }
+  .card-text{
+    text-align: left;
+    font-size:0.8rem;
+    opacity:80%;
+  }
+
+  .card img{
+    width: 9rem;
+    margin: auto;
+  }
+  .contacto{
+    height: 90vh;
+    background-image: url('../img/fondo-contacto.png');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.texto-contacto1{
+    padding-top: 4rem;
+    
+}
+.texto-contacto1 p{
+    font-size: 2rem;
+    color: #132263;
+    font-family: 'Coolvetica-regular';
+
+}
+.texto-contacto1 span{
+    display: block;
+    font-size: 2.8rem;
+    font-weight: 700;
+    color: #be2124;
+    font-family: 'Coolvetica-hv';
+
+}
+.texto-contacto2 span{
+    display: block;
+    font-size: 2rem;
+}
+.texto-contacto2{
+    width: 87%;
+
+}
+.texto-contacto2 span:first-child{
+    color: #132263;
+    font-family: 'Coolvetica-bk';
+
+}
+.texto-contacto2 span:nth-child(2){
+    color: #132263;
+    font-weight: 700;
+    font-family: 'Coolvetica-hv';
+
+}
+.texto-contacto2 :nth-child(3){
+    color: #be2124;
+    font-family: 'Coolvetica-bk';
+}
+.texto-contacto2 :nth-child(4){
+    color: #be2124;
+    font-family: 'Coolvetica-bk';
+}
+.texto-contacto2 :nth-child(5){
+    color: #be2124;
+    font-family: 'Coolvetica-bk';
+}
+.telefono{
+    max-width: 45rem;
+}
+.telefono img{
+    width: 37rem;
+    position: relative;
+    left: 7rem;
+    top: 2.2rem;
+}
+.compromiso{
+    height: 20vh;
+    background-image: url('../img/fondo-frase.png');
+    background-size: cover;
+    background-position: center;
+}
+.texto-compromiso{
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    align-items: center;
+    text-align: center;
+}
+.texto-compromiso span{
+    font-size: 1.6rem;
+    color: white;
+    font-style: italic;
+    width: 44%;
+    font-family: 'Coolvetica-bk';
+}
+.footer{
+    height: 12rem;
+    background-color: #b92121;
+  }
+.texto-footer{
+    text-align: center;
+    padding-top: 3rem;
+    font-family: 'Coolvetica-bk';
+
+}
+.texto-footer span{
+    display: block;
+    color: white;
+    font-size: 1.2rem;
+}
+.redes-sociales{
+    padding-top: 1rem;
+}
+.redes-sociales i{
+    font-size: 1.6rem;
+    color: white;
+}
+.titulo-{
+    font-family: 'Coolvetica-hv';
+    padding-top: 4rem;
+    color: white;
+}
+
+/* Pagina Contacto */
+/* Sección formulario */
+.formulario{
+    height: 60vh;
+    background-image: url('../img/formulario-fondo.png');
+    background-size: cover;
+    background-position: center;
+}
+.input{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.input input{
+    width: 24%;
+    outline: none;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 1.8rem;
+}
+.text-area{
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+.text-area textarea{
+    width: 92%;
+    border-radius: 1.8rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    outline: none;
+}
+.boton-enviar{
+    text-align: right;
+    width: 60rem;
+}
+.titulo h4{
+    font-family: 'Coolvetica-hv';
+    color: white;
+    padding-top: 4rem;
+}
+.boton-enviar button{
+    width: 8rem;
+    outline: none;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 1.3rem;
+    color: white;
+}
+/* Google maps */
+.google-maps{
+    height: 50vh;
+}
+.contacto2{
+    height: 95vh;
+    background-image: url('../img/fondo-contacto.png');
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+.telefono2 img{
+    width: 37rem;
+    position: relative;
+    left: 8rem;
+    top: 5rem;
+}
+/* Compromiso */
+.compromiso2{
+    height: 20vh;
+    background-image: url('../img/fondo-manos.png');
+    background-size: cover;
+    background-position: center;
+}
+.texto-compromiso2{
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+    align-items: center;
+    text-align: center;
+}
+.texto-compromiso2 span{
+    font-size: 1.6rem;
+    color: #132263;
+    font-style: italic;
+    width: 44%;
+    font-family: 'Coolvetica-bk';
+}
+/* Media Queries */
+/* Contacto */
+@media screen and (min-width:1500px){
+    /* Inicio mediaQuerie contacto */
+    .telefono2 img {
+    width: 59rem;
+    position: relative;
+    left: 1rem;
+    top: 5rem;
+    }
+    .texto-contacto1 p{
+        font-size: 3rem;
+    }
+    .texto-contacto1 span{
+        font-size: 3.6rem;
+    }
+    .texto-contacto2 span{
+        font-size: 3rem;
+    }
+    .texto-contacto2 span:nth-child(4){
+        width: 45rem;
+    }
+    .google-maps {
+        height: 32vh;
+    }
+    .titulo h4{
+        font-size: 2.5rem;
+    }
+    .boton-enviar{
+        width: 74rem;
+        margin-top: 0.5rem;
+    }
+    .texto-compromiso2 span{
+        font-size: 1.8rem;
+    }
+    .nav-item{
+        font-size: 1.2rem;
+    }
+    /* Final MediaQuerie contacto */
+
+    /* Inicio MediaQueries quienessomos */
+    .titulo-somos h2 {
+    font-size: 4rem;
+    }
+    .titulo-somos h4{
+        font-size: 3rem;
+    }
+    .texto-somos p{
+        font-size: 1.7rem;
+    }
+    .titulo- h4{
+        font-size: 4rem;
+    }
+    #card-3{
+        padding-bottom: 4rem;
+    }
+    #card-2{
+        padding-bottom: 2rem;
+    }
+    .card img{
+        width: 10.5rem;
+    }
+    .card-title{
+        font-size: 2.2rem;
+    }
+    .card-text{
+        font-size: 1.5rem;
+    }
+    .telefono img{
+        width: 53rem;
+        top: 8.2rem;
+    }
+}

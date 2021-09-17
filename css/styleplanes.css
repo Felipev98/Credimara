@@ -1,0 +1,244 @@
+@font-face {
+    font-family: 'Coolvetica-bk';
+    src: url('../fonts/CoolveticaBk-Regular.otf');
+}
+@font-face {
+    font-family: 'Coolvetica-hv';
+    src: url('../fonts/CoolveticaHv-Regular.otf');
+}
+@font-face {
+    font-family: 'Coolveticarg-regular';
+    src: url('../fonts/coolvetica\ rg.ttf');
+}
+@font-face {
+    font-family: 'Coolvetica-italic';
+    src: url('../fonts/CoolveticaBk-Italic.otf');
+}
+#navbarNav{
+    justify-content: flex-end;
+    margin-right: 5rem;
+}
+.nav-item{
+    margin-right: 2rem;
+}
+.nav-item a{
+    color: #132163 !important;
+    font-family: 'Coolvetica-bk';
+}
+#navbarNav{
+    justify-content: flex-end;
+    margin-right: 5rem;
+}
+[data-tab-content] {
+    display: none;
+  }
+  
+  .active[data-tab-content] {
+    display: block;
+    -webkit-animation: fadeEffect 1s;
+    animation: fadeEffect 1s;
+  }
+  
+  .tabs {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    font-family: 'Coolvetica-hv';
+  }
+  .tab {
+    cursor: pointer;
+    padding: 1rem;
+    background-color: #3b4b80;
+    width: 13rem;
+    color: white;
+    text-align: center;
+    border-radius: 1.4rem;
+    box-shadow: 0px 10px 20px black;
+    position: relative;
+    top: 3rem;
+    z-index: 8;
+  }
+  
+  .tab.active {
+    background-color: #ffff;
+    box-shadow: 0px 10px 20px black;
+    color: #3b4b80 !important;
+  }
+  .texto-familiar p{
+    font-family: 'Coolvetica-bk' ;
+    color: white;
+  }
+  .texto-familiar h2{
+    font-family: 'Coolveticarg-regular';
+    color: white;
+    font-size: 1.6rem;
+  }
+  .texto-individuales p{
+    font-family: 'Coolvetica-bk';
+color: #ffff;
+  }
+  .texto-individuales h4{
+    font-family: 'Coolveticarg-regular';
+    color: #ffff;
+    font-size: 1.6rem;
+  }
+  .tab:hover {
+    /* background-color: #AAA; */
+  }
+  .titulo-planes h2{
+    font-family: 'Coolvetica-hv';
+    color: #3b4b80;
+
+  }
+  .tab-content-familiar {
+      background-color: #be2224;
+      background-image: url('../img/familiar.png');
+    background-size: cover;
+     background-position: center;
+    height: 100vh;
+    padding-top: 4rem;
+    }
+  .tab-content-individuales{
+    background-color: #be2224;
+    background-image: url('../img/personalizado.png');
+  background-size: cover;
+   background-position: center;
+  height: 100vh;
+  padding-top: 4rem;
+  }
+  .tab-content-empresarial{
+    background-color: #be2224;
+    background-image: url('../img/planempresarial.png');
+  background-size: cover;
+   background-position: center;
+  height: 100vh;
+  padding-top: 4rem;
+  }
+  .tab-content-empresarial p{
+    font-family: 'Coolvetica-bk';
+    color: #ffff;
+  }
+  .tab-content-empresarial h4{
+    font-family: 'Coolveticarg-regular';
+    color: #ffff;
+  }
+.fondo-familia{
+    background-image: url('../img/familiar.png');
+    background-position: center;
+    background-size: cover;
+}
+.planes-empresariales{
+    height: 100vh;
+    background-image: url('../img/empresariales.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.titulo-empresariales{
+    margin-top: 9rem;
+}
+.titulo-empresariales h2{
+    font-family: 'Coolvetica-hv';
+    color: #0e2263;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.texto-empresariales p{
+    font-family: 'Coolvetica-bk';
+    color: #494949;
+    opacity: 0.8;
+    font-size: 1.1rem;
+}
+.imagen-empresaria{
+    margin-top: 5rem;
+}
+
+/* Footer */
+.footer{
+    height: 12rem;
+    background-color: #b92121;
+  }
+.texto-footer{
+    text-align: center;
+    padding-top: 3rem;
+    font-family: 'Coolvetica-bk';
+
+}
+.texto-footer span{
+    display: block;
+    color: white;
+    font-size: 1.2rem;
+}
+.redes-sociales{
+    padding-top: 1rem;
+}
+.redes-sociales i{
+    font-size: 1.6rem;
+    color: white;
+}
+.compromiso{
+    margin-top: 5.5rem;
+    text-align: center;
+}
+.compromiso p{
+    font-family: 'Coolvetica-italic';
+    color: #132263;
+    font-style: italic;
+    font-size: 1.2rem;
+    text-align: center;
+    opacity: 0.8;
+}
+@-webkit-keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes fadeEffect {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+@media screen and (min-width:1500px){
+.tab{
+  width: 20rem;
+  font-size: 1.5rem;
+}
+.texto-familiar h2 {
+font-size: 2.5rem;
+}
+.texto-familiar p{
+  font-size: 1.7rem;
+}
+.texto-individuales h4{
+  font-size: 2.5rem;
+}
+.texto-individuales p{
+  font-size: 1.7rem;
+}
+.tab-content-empresarial p {
+  font-size: 1.7rem;
+}
+.tab-content-empresarial h4{
+  font-size: 2.4rem;
+}
+.imagen-empresaria img{
+  width: 43rem !important;
+}
+.titulo-empresariales{
+width: 45rem;
+}
+.titulo-empresariales h2{
+  font-size: 4.2rem;
+}
+.titulo-empresariales {
+  margin-top: 10rem;
+} 
+.texto-empresariales p{
+  font-size: 1.7rem;
+}
+.compromiso p{
+  font-size: 1.7rem;
+}
+.titulo-planes h2{
+  font-size: 4rem;
+}
+}

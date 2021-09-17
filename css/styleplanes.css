@@ -82,9 +82,9 @@ color: #ffff;
     color: #ffff;
     font-size: 1.6rem;
   }
-  .tab:hover {
+  /* .tab:hover {
     /* background-color: #AAA; */
-  }
+   */
   .titulo-planes h2{
     font-family: 'Coolvetica-hv';
     color: #3b4b80;
@@ -92,7 +92,7 @@ color: #ffff;
   }
   .tab-content-familiar {
       background-color: #be2224;
-      background-image: url('../img/familiar.png');
+      background-image: url('../img/familiar.webp');
     background-size: cover;
      background-position: center;
     height: 100vh;
@@ -100,7 +100,7 @@ color: #ffff;
     }
   .tab-content-individuales{
     background-color: #be2224;
-    background-image: url('../img/personalizado.png');
+    background-image: url('../img/personalizado.webp');
   background-size: cover;
    background-position: center;
   height: 100vh;
@@ -108,7 +108,7 @@ color: #ffff;
   }
   .tab-content-empresarial{
     background-color: #be2224;
-    background-image: url('../img/planempresarial.png');
+    background-image: url('../img/planempresarial.webp');
   background-size: cover;
    background-position: center;
   height: 100vh;

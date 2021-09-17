@@ -31,7 +31,7 @@ font-family:'Coolvetica-regular' ;
 }
 .nosotros{
     height: 80vh;
-    background-image: url('../img/fondo-nosotros.png');
+    background-image: url('../img/fondo-nosotros.webp');
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -93,7 +93,7 @@ font-family:'Coolvetica-regular' ;
 
 .planes{
     height: 90vh;
-    background-image: url('../img/fondo-años.png');
+    background-image: url('../img/fondo-años.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
@@ -140,11 +140,10 @@ font-family:'Coolvetica-regular' ;
 .texto-años p{
     color: white;
     font-family: 'Coolvetica-bk';
-
 }
 .razones{
     height: 90vh;
-    background-image: url('../img/razones.png');
+    background-image: url('../img/razones.webp');
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -165,7 +164,7 @@ font-family:'Coolvetica-regular' ;
 }
 .testimonios{
     height: 80vh;
-    background-image: url('../img/fondo-testimonios.png');
+    background-image: url('../img/fondo-testimonios.webp');
     background-position: center;
     background-size: cover;
 }
@@ -181,7 +180,7 @@ font-family:'Coolvetica-regular' ;
 }
 .contacto{
     height: 90vh;
-    background-image: url('../img/fondo-contacto.png');
+    background-image: url('../img/fondo-contacto.webp');
     background-size: cover;
     background-position: center;
     overflow: hidden;

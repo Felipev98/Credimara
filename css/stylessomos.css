@@ -276,7 +276,7 @@ transform: scale(1.1);
 }
 .contacto2{
     height: 95vh;
-    background-image: url('../img/fondo-contacto.png');
+    background-image: url('../img/fondo-contacto.webp');
     background-size: cover;
     background-position: center;
     overflow: hidden;

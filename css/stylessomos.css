@@ -15,6 +15,10 @@
     font-family: 'Coolvetica-bk';
     src: url('../fonts/CoolveticaBk-Regular.otf');
 }
+@font-face {
+    font-family: 'Georema-rg';
+    src: url('../fonts/Georama-Regular.ttf');
+}
 /* Fin Fonts */
 #navbarNav{
     justify-content: flex-end;
@@ -103,6 +107,8 @@ transform: scale(1.1);
     text-align: left;
     font-size:0.8rem;
     opacity:80%;
+    font-family: 'Georema-rg';
+
   }
 
   .card img{
@@ -111,15 +117,32 @@ transform: scale(1.1);
   }
   .contacto{
     height: 90vh;
-    background-image: url('../img/fondo-contacto.png');
+    background-image: url('../img/fondo-contacto.webp');
     background-size: cover;
     background-position: center;
     overflow: hidden;
 }
 .texto-contacto1{
     padding-top: 4rem;
-    
 }
+/* Sticky Menú */
+.header.sticky{
+    width: 100%;
+    transition: 0.6s;
+    z-index: 999999;
+    background-color: #ffff;
+    height: 6rem;
+}
+.header{
+    position: fixed;
+    z-index: 999;
+    transition: 0.6s;
+}
+.navbar{
+    height: 4rem;
+    padding-top: 1rem;
+}
+/* Fin Sticky */
 .texto-contacto1 p{
     font-size: 2rem;
     color: #132263;
@@ -252,6 +275,7 @@ transform: scale(1.1);
     margin-top: 0px;
     margin-bottom: 0px;
     outline: none;
+    padding-left: 1rem;
 }
 .boton-enviar{
     text-align: right;

@@ -53,7 +53,7 @@
     color: white;
     text-align: center;
     border-radius: 1.4rem;
-    box-shadow: 0px 10px 20px black;
+    box-shadow: 0px 3px 21px #080409 !important;    
     position: relative;
     top: 3rem;
     z-index: 8;
@@ -85,10 +85,33 @@ color: #ffff;
   /* .tab:hover {
     /* background-color: #AAA; */
    */
+   /* Sticky Menu */
+   .header{
+    position: fixed;
+    z-index: 999;
+    transition: 0.6s;
+}
+.container-fluid{
+  position: fixed;
+    padding-top: 4rem;
+}
+.header.sticky{
+  width: 100%;
+  transition: 0.6s;
+  z-index: 999999;
+  background-color: #ffff;
+  height: 9rem;
+}
   .titulo-planes h2{
     font-family: 'Coolvetica-hv';
     color: #3b4b80;
-
+  }
+  .titulo-planes{
+    margin-top: 3rem;
+  }
+  .titulo-planes h2{
+    font-family: 'Coolvetica-hv';
+    color: #3b4b80;
   }
   .tab-content-familiar {
       background-color: #be2224;
@@ -152,7 +175,9 @@ color: #ffff;
 .imagen-empresaria{
     margin-top: 5rem;
 }
-
+.imagen-empresaria img{
+  width: 26rem;
+}
 /* Footer */
 .footer{
     height: 12rem;
@@ -192,7 +217,6 @@ color: #ffff;
     from {opacity: 0;}
     to {opacity: 1;}
 }
-
 @keyframes fadeEffect {
     from {opacity: 0;}
     to {opacity: 1;}

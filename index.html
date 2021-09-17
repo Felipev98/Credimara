@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta http-equiv="Content-Type" content="text/html; ISO-8859-1">
 	<meta name="DC.Language" scheme="RFC1766" content="Spanish">
@@ -20,8 +20,9 @@
 </head>
 <body>
 <header>
+
     <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
+        <div class="container-fluid header">
           <div class="navbar-brand">
             <img class="navbar-brand" src="./img/logo.webp" alt="">
           </div>
@@ -29,7 +30,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav  mb-2 mb-lg-0">
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="./index.html">INICIO</a>
               </li>
@@ -58,9 +59,15 @@
     <div class="splide">
       <div class="splide__track">
         <ul class="splide__list">
-          <img src="./img/banner1.webp"  class="splide__slide" alt="banner1.webp">
-          <img src="./img/banner2.webp" class="splide__slide" alt="banner2.webp">
-          <img src="./img/banner3.webp" class="splide__slide" alt="banner3.webp">
+          <li class="splide__slide">
+            <img src="./img/banner1.jpg"  class="splide__slide" alt="banner1.jpg">
+          </li>
+          <li class="splide__slide">
+            <img src="./img/banner2.jpg" class="splide__slide" alt="banner2.jpg">
+          </li>
+          <li class="splide__slide">
+            <img src="./img/banner3.jpg" class="splide__slide" alt="banner3.jpg">
+          </li>
         </ul>
       </div>
   </section>
@@ -243,27 +250,6 @@
       </div>
     </div>
   </section>
-  <section class="formulario">
-    <div class="container">
-      
-    <div class="titulo">
-      <h4>Formulario de contacto</h4>
-    </div>
-    <form action="">
-      <div class="input">
-        <input type="text" placeholder="Nombre">
-        <input type="text" placeholder="Teléfono">
-        <input type="text" placeholder="Email">
-      </div>
-      <div class="text-area">
-        <textarea name="" id="" cols="20" rows="3"></textarea>
-      </div>
-      <div class="boton-enviar">
-        <button>Enviar</button>
-      </div>
-    </form>
-  </div>
-  </section>
   <section class="compromiso">
     <div class="container">
       <div class="texto-compromiso">
@@ -294,5 +280,7 @@
 <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
 <script src="./js/carrusel.js"></script>
 <script src="./js/carusel2.js"></script>
+<script src="./js/sticky-menu.js"></script>
+<script src="./js/volver-Arriba.js"></script>
 </body>
 </html>

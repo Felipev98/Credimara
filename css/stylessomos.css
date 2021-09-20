@@ -20,6 +20,11 @@
     src: url('../fonts/Georama-Regular.ttf');
 }
 /* Fin Fonts */
+.active{
+    /* color: #be2124; */
+    background-color: #be2124;;
+    color: white !important;
+}
 #navbarNav{
     justify-content: flex-end;
     margin-right: 5rem;
@@ -27,9 +32,14 @@
 .nav-item{
     margin-right: 2rem;
 }
-.nav-item a{
-    color: #132163 !important;
+#navbarNav a{
+    color: #132163 ;
     font-family: 'Coolvetica-bk';
+    transition: all 0.3s ease-in-out;
+}
+#navbarNav a:hover{
+    background-color: #be2124;;
+    color: white !important;
 }
 .sobre-nosotros{
     background-image: url('../img/fondo-nosotros2.png');
@@ -41,7 +51,7 @@
 /* Fondo QUIÉNES SOMOS */
 .fondo{
     background-image: url('../img/quienessomos.png');
-    height: 108vh;
+    height: 54rem;
     background-size: cover;
     background-position: center;
 }
@@ -77,7 +87,7 @@
     background-color: #ededed !important;
     border: none !important;
     border-radius: 1rem !important;
-    box-shadow: 0px 10px 30px #080409 !important;
+    box-shadow: 0px 0px 8px #080409 !important;
     transition: all 0.3s ease-in-out;
 }
 .card:hover{
@@ -197,6 +207,7 @@ transform: scale(1.1);
     left: 7rem;
     top: 2.2rem;
 }
+
 .compromiso{
     height: 20vh;
     background-image: url('../img/fondo-frase.png');
@@ -336,17 +347,29 @@ transform: scale(1.1);
 /* Contacto */
 @media screen and (min-width:1500px){
     /* Inicio mediaQuerie contacto */
-    .telefono2 img {
-    width: 59rem;
-    position: relative;
-    left: 1rem;
-    top: 5rem;
+    .nosotros{
+        height: 50rem;
     }
+.contacto2{
+    height: 65rem;
+}
+.formulario{
+    height: 29rem;
+}
+.telefono2 img {
+    width: 47rem;
+    position: relative;
+    left: 13rem;
+    top: 18rem;
+}
     .texto-contacto1 p{
-        font-size: 3rem;
+        font-size: 2.6rem;
     }
     .texto-contacto1 span{
-        font-size: 3.6rem;
+        font-size: 3.1rem;
+    }
+    .contacto{
+        height: 58rem;
     }
     .texto-contacto2 span{
         font-size: 3rem;
@@ -373,32 +396,38 @@ transform: scale(1.1);
     /* Final MediaQuerie contacto */
 
     /* Inicio MediaQueries quienessomos */
+    .fondo{
+        height: 78rem;
+    }
+    .sobre-nosotros{
+        height: 45rem;
+    }
     .titulo-somos h2 {
-    font-size: 4rem;
+    font-size: 2.6rem;
     }
     .titulo-somos h4{
-        font-size: 3rem;
+        font-size: 2.2rem;
     }
     .texto-somos p{
         font-size: 1.7rem;
     }
     .titulo- h4{
-        font-size: 4rem;
+        font-size: 2.6rem;
     }
     #card-3{
-        padding-bottom: 4rem;
+        padding-bottom: 5.3rem;
     }
     #card-2{
         padding-bottom: 2rem;
     }
     .card img{
-        width: 10.5rem;
+        width: 8rem;
     }
     .card-title{
-        font-size: 2.2rem;
+        font-size: 1.8rem;
     }
     .card-text{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
     .telefono img{
         width: 53rem;

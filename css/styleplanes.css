@@ -14,6 +14,12 @@
     font-family: 'Coolvetica-italic';
     src: url('../fonts/CoolveticaBk-Italic.otf');
 }
+.active{
+  /* color: #be2124; */
+  background-color: #be2124;;
+  color: white !important;
+}
+
 #navbarNav{
     justify-content: flex-end;
     margin-right: 5rem;
@@ -21,9 +27,14 @@
 .nav-item{
     margin-right: 2rem;
 }
-.nav-item a{
-    color: #132163 !important;
-    font-family: 'Coolvetica-bk';
+#navbarNav a{
+  color: #132163;
+  font-family: 'Coolvetica-bk';
+  transition: all 0.3s ease-in-out;
+}
+#navbarNav a:hover{
+  background-color: #be2124;;
+  color: white !important;
 }
 #navbarNav{
     justify-content: flex-end;

@@ -69,12 +69,71 @@ font-family:'Coolvetica-regular' ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+/* Botón volver arriba */
+.boton-arriba-contenedor{
+    position: fixed;
+    bottom: 4rem;
+    right: 4rem;
+    width: 6.6rem;
+    height: 6.6rem;
+    z-index: -1;
 
+}
+.volver-arriba{
+    width: 0rem;
+    height: 0rem;
+    background-color: #EC4B4E;
+    border-radius: 50%;
+    cursor: pointer;
+    top: 50%;
+    transition: .2s;
+    transform: translate(-50%,50%);
+    transition: all 0.3s ease;
+    box-shadow: 0px 7px 30px black;
+}
+.volver-arriba:hover{
+    background-color:#132263 ;
+}
+.volver-arriba i{
+    position: absolute;
+    font-size: 1rem;
+    top: 48%;
+    left: 50%;
+    transform: translate(-50%,50%) scale(0);
+    color: white;
+    transition: .2s;
+}
+.show{
+    z-index: 10;
+    transform: translateX(125px);
+}
+.show .volver-arriba{
+    animation: popop .3s ease-in-out;
+    width: 4rem;
+    height: 4rem;
+    z-index: 11;
+}
+.show i{
+    transform: translate(-50%,-50%) scale(1);
+}
+@keyframes popop {
+    0%{
+        width: 0rem;
+        height: 0rem;
+    }
+    50%{
+        width: 2rem;
+        height: 2em;
+    }
+    100%{
+        width: 4rem;
+        height: 4rem;
+    }
 }
 /* Inicio Banner */
 .contenido{
     margin-top: 15rem;
-    animation: glow 2500ms linear infinite 2000ms;    
 }
 
 .contenido h2 {
@@ -85,12 +144,18 @@ font-family:'Coolvetica-regular' ;
     border-radius: 2.8rem;
     transform: translateX(-1px);
     color: #ffff;
+    font-family: 'Coolvetica-hv';
+    animation: glow 2500ms linear infinite 2000ms;    
+
+
 
 }
 .contenido h4{
     padding-left: 3rem;
     font-size: 2.5rem;
     color: #c51720;
+    font-family: 'Coolvetica-hv';
+
 }
 
 
@@ -98,17 +163,23 @@ font-family:'Coolvetica-regular' ;
     padding-left: 3rem;
     color: black;
     font-size: 1.8rem;
+    font-family: 'Coolvetica-regular';
+    opacity: 0.8;
+
 }
 .contenido2{
     position: relative;
     left: 64%;
     margin-top: 15rem;
-    animation: 
-    glow 2500ms linear infinite 2000ms;  
+   
+    
 }
 .contenido2 h2{
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     color:#132263;
+    font-family: 'Coolvetica-hv';
+    animation: 
+    glow 2500ms linear infinite 2000ms;  
 }
 .contenido2 h4{
     background: #c51720;;
@@ -116,10 +187,14 @@ font-family:'Coolvetica-regular' ;
     padding-left: 1rem;
     color: white;
     font-size: 2.5rem;
+    font-family: 'Coolvetica-lt';
+  
 }
 .contenido2 p{
     color: #ffff;
     font-size: 1.8rem;
+    font-family: 'Coolvetica-lt';
+
 }
 .contenido3{
     text-align: right;
@@ -132,10 +207,15 @@ font-family:'Coolvetica-regular' ;
     font-size: 2.5rem;
     width: 101%;
     color: #132263;
+    font-family: 'Coolvetica-lt';
+
+    
 }
 .contenido3 h2{
     font-size: 2.5rem;
     color: #c51720 ;
+    font-family: 'Coolvetica-hv';
+
 }
 .boton {
     width: 96%;
@@ -151,6 +231,8 @@ font-family:'Coolvetica-regular' ;
     width: 17rem;
     color: #ffff;
     transition: all 0.3s ease-in-out;
+    font-family: 'Coolvetica-hv';
+
 }
 .boton button:hover{
 background-color:#243EAC ;
@@ -697,7 +779,7 @@ width: 14rem;
     color: #c51720 ;
 }
 .boton{
-    width: 96%;
+    width: 97%;
 }
 .boton button{
     margin-top: 1rem;

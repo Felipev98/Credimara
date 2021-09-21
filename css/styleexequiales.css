@@ -1,0 +1,270 @@
+@font-face {
+    font-family: 'Coolvetica-bk';
+    src: url('../fonts/CoolveticaBk-Regular.otf');
+}
+@font-face {
+    font-family: 'Coolvetica-hv';
+    src: url('../fonts/CoolveticaHv-Regular.otf');
+}
+@font-face {
+    font-family: 'Coolvetica-lt';
+    src: url('../fonts/CoolveticaLt-Regular.otf');
+}
+@font-face {
+    font-family: 'Coolvetica-italic';
+    src: url('../fonts/CoolveticaBk-Italic.otf');
+}
+.active{
+    background-color: #be2124;;
+    color: white !important;
+    border-radius: 2rem;
+}
+#navbarNav{
+    justify-content: flex-end;
+    margin-right: 5rem;
+}
+.nav-item{
+    margin-right: 2rem;
+}
+#navbarNav a{
+    color: #132163 ;
+    font-family: 'Coolvetica-bk';
+    transition: all 0.3s ease-in-out;
+}
+#navbarNav a:hover{
+    background-color: #be2124;;
+    color: white !important;
+    border-radius: 2rem;
+}
+.fondo{
+    background-image: url('../img/fondo-exequiales.png');
+    height: 19rem;
+    background-size: cover;
+    background-position: center;
+}
+.titulo-exequiales h2{
+    font-family: 'Coolvetica-hv';
+    color: #23336e;
+    padding-top: 4rem;
+}
+.texto-exequiales p{
+    font-family: 'Coolvetica-lt';
+    color: #434343;
+    opacity: 0.8;
+}
+.fondo-instalaciones{
+    background-image: url('../img/fondo-instalaciones.png');
+    height: 40rem;
+    background-size: cover;
+    background-position: center;
+}
+.titulo-instalaciones{
+     color: #ffff;
+     font-family: 'Coolvetica-hv';
+}
+.footer{
+    height: 12rem;
+    background-color: #b92121;
+  }
+.texto-footer{
+    text-align: center;
+    padding-top: 3rem;
+    font-family: 'Coolvetica-bk';
+}
+.texto-footer span{
+    display: block;
+    color: white;
+    font-size: 1.2rem;
+}
+.redes-sociales{
+    padding-top: 1rem;
+}
+.redes-sociales i{
+    font-size: 1.6rem;
+    color: white;
+}
+.titulo-contacto{
+    text-align: right;
+}
+.icono img{
+    width: 6rem;
+}
+.icono{
+    text-align: right;
+}
+.texto-icono{
+    text-align: right;
+}
+.titulo-contacto{
+    color: #be2224;
+    font-family: 'Coolvetica-hv';
+}
+.titulo-contacto h2{
+    font-size: 2rem;
+}
+.contacto-exequiales{
+    background-image: url('../img/quienessomos.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 44rem;
+}
+.texto-icono span{
+    font-size: 1.1rem;
+    color: #3c3c3c;
+    font-family: 'Coolvetica-bk';
+    opacity: 0.8;
+}
+.titulo-contacto{
+    padding-top: 2rem;
+}
+.frase{
+    padding-top: 3rem;
+    color: #132263;
+    font-size: 1.3rem;
+    opacity: 0.9;
+    font-family: 'Coolvetica-italic';
+}
+.lupa img{
+    width: 27rem;
+    position: relative;
+    left: -8rem;
+}
+.titulo-instalaciones{
+    padding-top:3rem;
+    padding-bottom: 1rem;
+}
+.content{
+    position: relative;
+    width: 107%;
+    max-width: 400px;
+    height: 101%;
+    cursor: pointer;
+}
+#imagen{
+    opacity: 0;
+    position: absolute;
+    z-index: 9;
+}
+ .content .content-overlay {
+    background: rgba(0,0,0,0.7);
+    position: absolute;
+    height: 37%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+}
+.content:hover .content-overlay{
+    opacity: 1;
+  }
+  .content-details {
+    position: absolute;
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+    width: 20%;
+    top: 20%;
+    left: 20%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .content:hover .content-details{
+    top: 20%;
+    left: 20%;
+    opacity: 1;
+  }
+  
+  .content-details {
+    color: #fff;
+   letter-spacing: 0.15em;
+    margin-bottom: 0.5em;
+  }
+  .content-details i{
+      font-size: 2rem;
+  }
+  
+  .fadeIn-bottom{
+    top: 80%;
+  }
+/* Sticky Menú */
+.header.sticky{
+    width: 100%;
+    transition: 0.6s;
+    z-index: 999999;
+    background-color: #ffff;
+    height: 5rem;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 30%);
+}
+
+.header{
+    position: fixed;
+    z-index: 999;
+    transition: 0.6s;
+}
+.navbar{
+    height: 4rem;
+    padding-top: 1rem;
+}
+#expandedImg{
+    transition: 0.6s;
+}
+#imagenes{
+    margin-top: 5rem;
+    padding-left: 3rem;
+}
+/* Fin Sticky Menú */
+.imagen-pequeña img{
+    width: 10rem;
+}
+#imagenes-abajo{
+    margin-top: 1rem;
+}
+/* MediaQueries */
+@media screen and (min-width:1500px){
+    .fondo{
+        height: 25rem;
+    }
+    .titulo-exequiales h2{
+        font-size: 2.6rem;
+    }
+    .texto-exequiales {
+        font-size: 1.7rem;
+    }
+    .titulo-contacto h2 {
+        font-size: 2.7rem;
+    }
+    .texto-icono span{
+        font-size: 1.7rem;
+    }
+    .lupa img {
+        width: 32rem;
+        position: relative;
+        left: -20rem;
+    }
+    .frase{
+        font-size: 1.7rem;
+    }
+    .contacto-exequiales {
+        height: 52rem;
+    }
+    .fondo-instalaciones{
+        height: 48rem;
+    }
+    .content .content-overlay {
+        width: 83%;
+    }
+    #imagenes{
+        margin-top: 9rem;
+    }
+}

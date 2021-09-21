@@ -23,8 +23,7 @@
 
 #navbarSupportedContent{
     background: #c51720;
-    border-radius: 1rem;
-    /* transform: translateX(23px); */
+    border-radius: 2rem;
 }
 .boton-arriba-contenedor{
     position: fixed;
@@ -75,7 +74,9 @@ font-family:'Coolvetica-regular' ;
 /* Inicio Banner */
 .contenido{
     margin-top: 15rem;
+    animation: glow 2500ms linear infinite 2000ms;    
 }
+
 .contenido h2 {
     background: #132263;
     width: 28rem;
@@ -84,12 +85,15 @@ font-family:'Coolvetica-regular' ;
     border-radius: 2.8rem;
     transform: translateX(-1px);
     color: #ffff;
+
 }
 .contenido h4{
     padding-left: 3rem;
     font-size: 2.5rem;
     color: #c51720;
 }
+
+
 .contenido p{
     padding-left: 3rem;
     color: black;
@@ -99,6 +103,8 @@ font-family:'Coolvetica-regular' ;
     position: relative;
     left: 64%;
     margin-top: 15rem;
+    animation: 
+    glow 2500ms linear infinite 2000ms;  
 }
 .contenido2 h2{
     font-size: 2.5rem;
@@ -119,6 +125,8 @@ font-family:'Coolvetica-regular' ;
     text-align: right;
     margin-right: 3rem;
     margin-top: 12rem;
+    animation: glow2 2500ms linear infinite 2000ms;    
+
 }
 .contenido3 h3{
     font-size: 2.5rem;
@@ -147,6 +155,11 @@ font-family:'Coolvetica-regular' ;
 .boton button:hover{
 background-color:#243EAC ;
 }
+@keyframes glow {
+    40% {
+      text-shadow: 0 0 8px #fff;
+    }
+  }
 
 
 /* Fin Banner */
@@ -167,6 +180,7 @@ background-color:#243EAC ;
     z-index: 999999;
     background-color: #ffff;
     height: 9rem;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 30%);
 }
 .titulo{
     text-align: center;

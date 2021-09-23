@@ -113,7 +113,7 @@ sr.reveal('.texto-contacto2',{
 window.sr = ScrollReveal();
 sr.reveal('#formulario',{
     duration:4000,
-    origin:'left',
+    origin:'right',
     distance:'-100px',
 })
 window.sr = ScrollReveal();

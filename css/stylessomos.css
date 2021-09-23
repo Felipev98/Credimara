@@ -411,6 +411,7 @@ transform: scale(1.1);
 }
 /* Media Queries */
 /* Contacto */
+
 @media screen and (min-width:1500px){
     /* Inicio mediaQuerie contacto */
     .nosotros{
@@ -498,5 +499,130 @@ transform: scale(1.1);
     .telefono img{
         width: 53rem;
         top: 8.2rem;
+    }
+}
+
+/* Inicio MediaQuerie Contacto */
+
+/* MediaQuerie Quienessomos Teléfonos */
+@media screen and (max-width:700px){
+    .titulo-somos h2{
+        font-size: 2.5rem;
+    }
+    .texto-somos p{
+        font-size: 1.2rem;
+    }
+    .fondo{
+        height: 90rem;
+    }
+    .sobre-nosotros{
+        height: 86rem;
+    }
+    .texto-footer{
+        padding-top: 1.6rem;
+    }
+    #card-2{
+        margin-top: 2rem;
+    }
+    #card-3{
+        margin-top: 2rem;
+    }
+    .card-text{
+        font-size: 1.1rem;
+    }
+}
+@media screen and (max-width:700px){
+    .boton-enviar{
+        width: 16rem;
+    }
+    .texto-contacto2 {
+        width: 100%;
+        text-align: center;
+    }
+    .texto-contacto1{
+        text-align: center;
+    }
+    .google-maps{
+        height: 22rem;
+    }
+    .input{
+    flex-direction: column;        
+    }
+    .input input{
+        margin: auto;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .text-area textarea{
+        width: 100%;
+    }
+    .text-area{
+        margin-left: 0rem;
+    }
+    .boton-enviar{
+        width: 15rem;
+    }
+    .formulario{
+        height: 34rem;
+    }
+    .texto-compromiso2 span{
+        width: 100%;
+        font-size: 1.4rem;
+    }
+}
+@media screen and (min-width:701px) and (max-width:1023px){
+    .contacto2{
+        height: 73rem;
+    }
+    .google-maps{
+        height: 34vh;
+    }
+    .boton-enviar{
+        width: 26rem;
+        margin-top: 1rem;
+    }
+    .telefono2 img{
+        left: 9rem;
+    }
+}
+@media screen and (min-width:1023px) and (max-width:1200px){
+     .contacto2{
+        height: 73rem;
+    }
+    .google-maps{
+        height: 25vh;
+    }
+    .boton-enviar{
+        width: 33rem;
+        margin-top: 1rem;
+    } 
+    .telefono2 img{
+        left: 25rem;
+    }
+    .formulario{
+        height: 29vh;
+    }
+    
+}  
+@media screen and (min-width:250px) and (max-width:350px){
+    .boton-enviar{
+        width: 13rem;
+    }
+    .texto-compromiso2 span{
+        font-size: 1.2rem;
+    }
+    .contacto2{
+        height: 45rem;
+    }
+}
+@media screen and (min-width:701px) and (max-width:1200px){
+    .sobre-nosotros{
+        height: 36rem;
+    }
+}
+@media screen and (min-width:2200px){
+    .telefono2 img{
+        left: 33rem !important;
+    
     }
 }

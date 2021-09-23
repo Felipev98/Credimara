@@ -270,3 +270,13 @@
         margin-top: 9rem;
     }
 }
+/* Pantallas extra-grande */
+@media screen and (min-width:2400px) {
+    .imagen-manos img{
+        left: -40rem;
+    }
+    .lupa img{
+        width: 33rem;
+        left:-40rem;
+    }
+}

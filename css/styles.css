@@ -375,6 +375,7 @@ background-color:#243EAC ;
     height: 90vh;
     background-image: url('../img/razones.webp');
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
 }
 .logo-razones{
@@ -592,6 +593,258 @@ font-family: 'Coolvetica-regular';
 background-color:#132263 !important;    
 }
 /* Media Queries */
+/* Pantalla teléfonos */
+
+@media screen and (max-width:700px) {
+    .nosotros{
+        height: 77rem;
+    }
+    #card-2{
+        margin-top: 2rem;
+    }
+    #card-3{
+        margin-top: 2rem;
+    }
+    #splide01-slide01{
+        height: 574.5px !important;
+    }
+    .contenido h2{
+        width: 20rem;
+        font-size: 1.9rem;
+    }
+    .contenido h4{
+        font-size: 1.6rem;
+    }
+    .contenido p{
+        font-size: 1.8rem;
+    }
+    #splide01-slide02{
+        height: 574.5px !important;
+    }
+    .contenido2 h2{
+        font-size: 2.4rem;
+    }
+    .contenido2 h4{
+        font-size: 1.8rem;
+    }
+    .contenido2 p{
+        font-size: 1.6rem;
+    }
+    .contenido2{
+        left: 10%;
+    }
+    #splide01-slide03{
+        height: 574.5px !important;
+    }
+    .contenido3 h2{
+        font-size: 2rem;
+    }
+    .contenido3 h3{
+        font-size: 1.9rem;
+    }
+    .imagen-manos{
+        display: none;
+    }
+    .razones{
+        height: 86rem;
+    }
+    .testimonios{
+        height: 46rem;
+    }
+    .texto-compromiso span{
+        width: 79%;
+    }
+    .titulo-años{
+        width: 22rem;
+    }
+    .planes{
+        height: 52rem;
+    }
+    .texto-footer{
+        padding-top: 0.8rem;
+    }
+    .splide__slide__container {
+        margin-right: 0rem;
+        margin-left: 0rem;
+    }      
+    .splide__slide__containerr{
+        margin-left: 0rem;
+        margin-right: 0rem;
+    }
+    .texto-compromiso span{
+        font-size: 1.4rem;
+    }
+    .testimonios{
+        height: 39rem;
+    }
+    .titulo-años{
+        text-align: center;
+    }
+    .titulo-años p{
+        margin: auto;
+        font-size: 1.4rem;
+    }
+    .titulo-años span{
+        font-size: 1.4rem;
+    }
+}
+/* Tablets */
+@media screen and (min-width:701px) and (max-width:1023px){
+    #splide01-slide01{
+        height: 576px !important;
+    }
+    #splide01-slide02{
+        height: 576px !important;
+    }
+    #splide01-slide03{
+        height: 576px !important;
+    }
+    .contenido2{
+        left: 42%;
+    }
+    .nosotros{
+        height: 38rem;
+    }
+    .imagen-manos{
+        display: none;
+    }
+    .planes{
+        height: 38rem;
+    }
+    .razones{
+        height: 87rem;
+    }
+    .splide__slide__containerr {
+  padding-bottom: 4rem;
+    }
+    .texto-compromiso span {
+        font-size: 1.4rem;
+    }      
+}
+@media screen and (min-width:1024px) and (max-width:1200px){
+    #splide01-slide01{
+        height: 576px !important;
+    }
+    #splide01-slide02{
+        height: 576px !important;
+    }
+    #splide01-slide03{
+        height: 576px !important;
+    }
+    .nosotros{
+        height: 40rem;
+    }
+    .imagen-manos{
+        display: none;
+    }
+    .planes{
+        height: 36rem;
+    }
+    .texto-años p{
+        font-size: 1.2rem;
+    }    
+    #card-1 {
+        padding-bottom: 3.3rem !important;
+    }
+    #card-2 {
+        padding-bottom: 3.4rem;
+    }
+    #card-3 {
+        padding-bottom: 6rem;
+    }
+    .card-text p{
+        font-size: 0.9rem;
+    }
+    .razones{
+        height: 84rem;
+    }
+    .testimonios{
+        height: 41rem;
+    }
+    .splide__slide__containerr {
+        padding-bottom: 4rem;
+    }
+    .compromiso{
+        height: 17vh;
+    }
+    .navbar-brand img{
+        margin-right: -7rem;
+    }
+}
+@media screen and (min-width:250px) and (max-width:350px){
+    .titulo-años {
+        width: 19rem;
+    }
+    .titulo-años p{
+        font-size: 1.2rem;
+    }
+    .titulo-años span{
+        font-size: 1.2rem;
+    }
+    .logo-razones img{
+        width: 6rem;
+    }
+    .razones{
+        height: 72rem;
+    }
+    .card img{
+        width: 6rem;
+    }
+    .compromiso{
+        height: 23vh;
+    }
+    .texto-compromiso span{
+        font-size: 1.3rem;
+    }
+    .contenido{
+        margin-top: 12rem;
+    }
+    .contenido2{
+        margin-top: 12rem;
+    }
+    .contenido  h2{
+        font-size: 1.6rem;
+    }
+    .contenido p{
+        font-size: 1.3rem;
+    }
+    .contenido2 h2{
+        font-size: 1.6rem;
+    }
+    .contenido2 h4{
+        font-size: 1.6rem;
+    }
+    .contenido2 p{
+        font-size: 1.3rem;
+    }
+    .contenido3{
+        margin-top: 8rem;
+    }
+    .contenido3 h3 {
+        font-size: 1.3rem;
+    }
+    .contenido3 h2 {
+        font-size: 2rem;
+    }
+    .boton button{
+        font-size: 0.9rem;
+        width: 13rem;
+    }
+    .boton{
+        width: 104%;
+    }
+    .testimonios {
+        height: 43rem;
+    }
+    .compromiso span{
+        font-size: 1.1rem;
+    }
+    .nosotros{
+        height: 70rem;
+    }
+}
+
+
 @media screen and (min-width:1500px){
 .nosotros{
     height: 50rem;
@@ -643,7 +896,7 @@ background-color:#132263 !important;
         height: 60rem;
     }
     .titulo-años{
-        width: 57rem;
+        width: 56rem;
     }
     .titulo-años p{
         font-size: 2.5rem;
@@ -779,17 +1032,17 @@ width: 14rem;
     color: #c51720 ;
 }
 .boton{
-    width: 97%;
+    width: 98%;
 }
 .boton button{
     margin-top: 1rem;
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     outline: none;
     border: none;
     padding: 1rem;
     border-radius: 3.9rem;
     background: #132263;
-    width: 26rem;
+    width: 28rem;
     color: #ffff;
 }
 .contenido h2{
@@ -802,4 +1055,21 @@ width: 14rem;
      color: #ffff; 
 }
 }
+
+/* Pantallas extra-grande */
+@media screen and (min-width:2400px) {
+    .imagen-manos img{
+        left: -40rem;
+    }
+    .contenido2{
+        left: 71%;
+    }
+    .navbar-brand {
+        margin-right: 22rem !important;
+    }
+    .splide__track{
+        height: 56.2rem;
+    }
+}
+
 /* Fin Banner */

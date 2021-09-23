@@ -8,20 +8,20 @@ sr.reveal('.titulo',{
 window.sr = ScrollReveal();
 sr.reveal('#card-1',{
     duration:4000,
-    origin:'left',
-    distance:'-150px'
+    origin:'right',
+    distance:'-100px'
 })
 window.sr = ScrollReveal();
 sr.reveal('#card-2',{
     duration:5000,
-    origin:'left',
-    distance:'-200px'
+    origin:'right',
+    distance:'-100px'
 })
 window.sr = ScrollReveal();
 sr.reveal('#card-3',{
     duration:6000,
-    origin:'left',
-    distance:'-250px'
+    origin:'right',
+    distance:'-100px'
 })
 window.sr = ScrollReveal();
 sr.reveal('.imagen-manos img',{

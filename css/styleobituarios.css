@@ -236,6 +236,19 @@ input{
     border: none;
     border-radius: 2rem;
     padding: 0.3rem;
+    position: relative;
+    z-index: 9;
+}
+button{
+    background-color: #1f5ef6;
+    padding: 0.3rem;
+    width: 6rem;
+    transform: translateX(-40px);
+    border: none;
+    border-radius: 2rem !important;
+}
+i{
+    color: #ffff;
 }
 @media screen and (min-width:1500px){
     .card span{

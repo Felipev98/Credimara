@@ -216,12 +216,14 @@ transform: rotate(-45deg) translate(-8px, 6px);
 }
 .card{
     padding:1rem;
-    background-color: #ededed !important;
+    background-image: url('../img/fondoobituario--.jpg');
     border: none !important;
     margin-top: 2rem;
     text-align: center;
     font-family: 'Coolvetica-regular';
     color: black;
+    background-size: cover;
+    background-position: center;
 }
 span.quien{
     margin-bottom: 1rem ;

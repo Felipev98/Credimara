@@ -41,8 +41,9 @@ font-family:'Coolvetica-regular' ;
     justify-content: center;
 }
 .navbar-brand img{
-    max-width: 24.1rem;
-    margin-right: 10rem;
+    max-width: 11rem;
+    margin-right: 13rem;
+    margin-left: 4rem;
 }
 
 .navbar{
@@ -429,7 +430,7 @@ background-color:#243EAC ;
     padding: 1rem;
     background: #be2124;
     border-radius: 1.5rem;
-    width: 86%;
+    width: 54%;
 }
 .boton-planes{
     text-align: right;
@@ -665,6 +666,23 @@ font-family: 'Coolvetica-regular';
 .splide__pagination__page.is-active {
 background-color:#132263 !important;    
 }
+.mdn{
+    text-align: center;
+    background: #132263;
+    padding: 0.8rem;
+    color: #ffff;
+    font-family: 'Coolvetica-regular';
+
+}
+.mdn a{
+    color: #ffb700;
+    text-decoration: none;
+    transition:  all 0.3s ease-in-out;
+
+}
+.mdn a:hover{
+    color: #FFC93E;
+}
 /* Media Queries */
 /* Pantalla teléfonos */
 @media screen and (min-width:1000px){
@@ -685,15 +703,25 @@ background-color:#132263 !important;
     #splide01-slide01{
         height: 574.5px !important;
     }
+    .boton{
+        width: 102%;
+    }
     .contenido h2{
-        width: 20rem;
-        font-size: 1.9rem;
+        width: 17rem;
+        font-size: 1.6rem;
+        padding-left: 2rem;
+    }
+    .contenido{
+        margin-top: 5rem;
     }
     .contenido h4{
         font-size: 1.6rem;
+        padding-left: 2rem;
     }
     .contenido p{
-        font-size: 1.8rem;
+        font-size: 1.1rem;
+        width: 16rem;
+        padding-left: 2rem;
     }
     #splide01-slide02{
         height: 574.5px !important;
@@ -712,12 +740,16 @@ background-color:#132263 !important;
     }
     #splide01-slide03{
         height: 574.5px !important;
+        width: 747px !important;
     }
     .contenido3 h2{
-        font-size: 2rem;
+        font-size: 1.8rem;
+        transform: translateX(18px);
     }
+
     .contenido3 h3{
-        font-size: 1.9rem;
+        font-size: 1.7rem;
+        transform: translateX(-3px);
     }
     .imagen-manos{
         display: none;
@@ -756,6 +788,7 @@ background-color:#132263 !important;
     }
     .titulo-años{
         text-align: center;
+        width: 100%;
     }
     .titulo-años p{
         margin: auto;
@@ -764,15 +797,21 @@ background-color:#132263 !important;
     .titulo-años span{
         font-size: 1.4rem;
     }
+    .titulo-años p:first-child {
+        width: 100%;
+    }
     .navbar-brand img{
         margin-right: 0rem;
         max-width: 11.1rem;
+        width: 8.1rem;
+        margin-left: 0rem;
     }
 }
 /* Tablets */
 @media screen and (min-width:701px) and (max-width:1023px){
     #splide01-slide01{
         height: 576px !important;
+        
     }
     #splide01-slide02{
         height: 576px !important;
@@ -802,7 +841,7 @@ background-color:#132263 !important;
         font-size: 1.4rem;
     }
     .navbar-brand img {
-        max-width: 13.1rem;      
+        max-width: 9.1rem;      
 }
 .hamburguer{
     transform: translateX(700px);
@@ -855,7 +894,7 @@ background-color:#132263 !important;
         height: 17vh;
     }
     .navbar-brand img{
-        margin-right: -7rem;
+        margin-right: 2rem;
     }
 }
 @media screen and (min-width:250px) and (max-width:350px){
@@ -884,7 +923,10 @@ background-color:#132263 !important;
         font-size: 1.3rem;
     }
     .contenido{
-        margin-top: 12rem;
+        margin-top: 3rem;
+    }
+    .contenido p{
+        width: 17rem;
     }
     .contenido2{
         margin-top: 12rem;
@@ -909,16 +951,18 @@ background-color:#132263 !important;
     }
     .contenido3 h3 {
         font-size: 1.3rem;
+        transform: translateX(-21px);
     }
     .contenido3 h2 {
-        font-size: 2rem;
+        font-size: 1.7rem;
+        transform: translateX(11px);
     }
     .boton button{
         font-size: 0.9rem;
         width: 13rem;
     }
     .boton{
-        width: 104%;
+        width: 99%;
     }
     .testimonios {
         height: 43rem;
@@ -929,6 +973,10 @@ background-color:#132263 !important;
     .nosotros{
         height: 70rem;
     }
+    .hamburguer{
+        transform: translateX(252px);
+    }
+    
 }
 
 
@@ -943,8 +991,9 @@ background-color:#132263 !important;
         height: 57rem;
     }
     .navbar-brand img {
-        max-width: 39rem;
-        margin-right: 12rem;
+        max-width: 18rem;
+        margin-right: 13rem;
+        margin-left: 5rem;
     }
     .navbar{
         max-height: 13.2rem;
@@ -1141,6 +1190,10 @@ width: 14rem;
      transform: translateX(-1px); 
      color: #ffff; 
 }
+.col-lg-3.col-md-4.col-sm-12.col-xs-12.col-xl-3{
+    margin-right: 2rem !important;
+}
+
 }
 
 /* Pantallas extra-grande */
@@ -1152,13 +1205,19 @@ width: 14rem;
         left: 71%;
     }
     .navbar-brand {
-        margin-right: 22rem !important;
+        margin-right: 25rem !important;
+    }
+    .navbar-brand img{
+        margin-left: 7rem;
     }
     .splide__track{
         height: 56.2rem;
     }
     #splide_trackk{
         height: 40rem !important;
+    }
+    .col-lg-3.col-md-4.col-sm-12.col-xs-12.col-xl-3{
+        margin-right: 2rem !important;
     }
 }
 

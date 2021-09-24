@@ -1157,12 +1157,8 @@ width: 14rem;
     .splide__track{
         height: 56.2rem;
     }
-    .splide__arrow {
-        top: 34% !important;
-    }
-    .boton-testimonios{
-        position: relative;
-        top: -17rem !important;
+    #splide_trackk{
+        height: 40rem !important;
     }
 }
 

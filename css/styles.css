@@ -445,7 +445,7 @@ background-color:#243EAC ;
     padding: 1rem;
     background: #be2124;
     border-radius: 1.5rem;
-    width: 54%;
+    width: 56%;
 }
 .boton-planes{
     text-align: right;
@@ -1019,7 +1019,6 @@ background-color:#132263 !important;
     }
 }
 
-
 @media screen and (min-width:1500px){
 .nosotros{
     height: 50rem;
@@ -1072,7 +1071,7 @@ background-color:#132263 !important;
         height: 60rem;
     }
     .titulo-años{
-        width: 56rem;
+        width: 100%;
     }
     .titulo-años p{
         font-size: 2.5rem;
@@ -1241,6 +1240,9 @@ font-size: 4.1rem;
 }
 .texto-compromiso span{
     font-size: 1.9rem;
+}
+.titulo-años p:first-child {
+width: 79%;
 }
 }
 

@@ -111,6 +111,12 @@ sr.reveal('.texto-contacto2',{
     distance:'-100px',
 })
 window.sr = ScrollReveal();
+sr.reveal('.texto-contacto3',{
+    duration:4000,
+    origin:'left',
+    distance:'-100px',
+})
+window.sr = ScrollReveal();
 sr.reveal('#formulario',{
     duration:4000,
     origin:'right',

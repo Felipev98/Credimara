@@ -363,6 +363,13 @@ i{
     input{
         width: 10rem;
     }
+    .footer{
+        height: 13rem;
+    }
+    .hamburguer{
+        transform: translateX(255px);
+    }
+
 }
 @media screen and (min-width:701px) and (max-width:1024px){
     .fondo{
@@ -380,7 +387,7 @@ i{
         font-size: 1.2rem;
     }
     .compromiso p{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
     .fondo{
         height: 58rem;

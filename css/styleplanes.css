@@ -192,6 +192,7 @@ transform: rotate(-45deg) translate(-8px, 6px);
     justify-content: space-around;
     list-style-type: none;
     font-family: 'Coolvetica-hv';
+    font-size: 0.8rem;
   }
   .tab {
     cursor: pointer;
@@ -211,6 +212,12 @@ transform: rotate(-45deg) translate(-8px, 6px);
     background-color: #ffff;
     box-shadow: 0px 10px 20px black;
     color: #3b4b80 !important;
+  }
+  .texto-familiar{
+    margin-left: 4rem;
+  }
+  #texto-ultimo{
+    width: 88%;
   }
   .texto-familiar p{
     font-family: 'Coolvetica-bk' ;
@@ -264,15 +271,27 @@ color: #ffff;
     color: #3b4b80;
   }
   .tab-content-familiar {
-      background-color: #be2224;
       background-image: url('../img/familiar.webp');
     background-size: cover;
      background-position: center;
     height: 100vh;
     padding-top: 4rem;
     }
+    .tab-content-nuevo4 {
+      background-image: url('../img/woman.jpg');
+    background-size: cover;
+     background-position: center;
+    height: 100vh;
+    padding-top: 4rem;
+    }
+    .tab-content-nuevo5 {
+      background-image: url('../img/abuela.jpg');
+    background-size: cover;
+     background-position: center;
+    height: 100vh;
+    padding-top: 4rem;
+    }
   .tab-content-individuales{
-    background-color: #be2224;
     background-image: url('../img/personalizado.webp');
   background-size: cover;
    background-position: center;
@@ -280,7 +299,6 @@ color: #ffff;
   padding-top: 4rem;
   }
   .tab-content-empresarial{
-    background-color: #be2224;
     background-image: url('../img/planempresarial.webp');
   background-size: cover;
    background-position: center;
@@ -295,6 +313,7 @@ color: #ffff;
     font-family: 'Coolveticarg-regular';
     color: #ffff;
   }
+
 .fondo-familia{
     background-image: url('../img/familiar.png');
     background-position: center;
@@ -369,16 +388,18 @@ color: #ffff;
     color: white;
 }
 .compromiso{
-    margin-top: 5.5rem;
+    margin-top: 6.3rem;
     text-align: center;
+    background-color: #b92121;
+    padding: 0.3rem;
+
 }
 .compromiso p{
     font-family: 'Coolvetica-italic';
-    color: #132263;
+    color: #ffff;
     font-style: italic;
     font-size: 1.2rem;
     text-align: center;
-    opacity: 0.8;
 }
 @-webkit-keyframes fadeEffect {
     from {opacity: 0;}
@@ -405,6 +426,9 @@ color: #ffff;
   .texto-familiar p{
     font-size: 1.2rem;
   }
+  .texto-familiar{
+    margin-left: 1rem;
+  }
   .texto-individuales p{
     font-size: 1.2rem;
   }
@@ -412,7 +436,10 @@ color: #ffff;
     font-size: 1.2rem;
   }
   .tab-content-familiar{
-    height: 56rem;
+    height: 62rem;
+  }
+  .tab-content-nuevo4 {
+height: 67rem;
   }
   .tab-content-empresarial{
     height: 73rem;
@@ -443,13 +470,13 @@ color: #ffff;
 /* Pantalla tablets */
 @media screen and (min-width:701px) and (max-width:1023px){
   .tab-content-familiar {
-    height: 32rem;
+    height: 43rem;
   }
   .tab-content-individuales{
-    height: 41rem;
+    height: 46rem;
   }
   .tab-content-empresarial{
-    height: 42rem;
+    height: 43rem;
   }
   .titulo-empresariales{
     margin-top: 3rem;
@@ -460,16 +487,35 @@ color: #ffff;
   .hamburguer{
     transform: translateX(700px);
   }
+.tabs{
+  font-size: 0.7rem;
+  margin-right: 1rem;
+}
+.tab{
+  margin-right: 1rem;
+}
+.tab-content-nuevo5{
+  height: 31rem;
+}
+.tab-content-nuevo4 {
+  height: 46rem;
+}
 }
 @media screen and (min-width:1024px) and (max-width:1200px){
   .tab-content-familiar{
-    height: 32rem;
+    height: 44rem;
   }
   .tab-content-individuales{
-    height: 40rem;
+    height: 46rem;
   }
   .tab-content-empresarial{
-    height: 40rem;
+    height: 44rem;
+  }
+  .tab-content-nuevo4{
+    height: 46rem;
+  }
+  .tab-content-nuevo5{
+    height: 46rem;
   }
   .titulo-empresariales {
     margin-top: 4rem;
@@ -483,6 +529,9 @@ color: #ffff;
 .planes-empresariales{
   height: 64rem;
 }
+.tab{
+  margin-right: 1.1rem;
+}
 }
 
 /* Pantallas pequeñas */
@@ -493,12 +542,34 @@ color: #ffff;
   .planes-empresariales{
     height: 74rem;
   }
+  .footer{
+    height: 14rem;
+  }
+  .hamburguer{
+    transform: translateX(254px);
+  }
+  .tab-content-familiar {
+height: 68rem;
+  }
+  .tab-content-individuales {
+    height: 73rem;
+  }
+  .tab-content-nuevo4 {
+    height: 73rem;
+  }
+  .tab-content-nuevo5 {
+    height: 45rem;
+  }
+  #texto-ultimo{
+    text-align: center;
+  }
 }
 
 @media screen and (min-width:1500px){
 .tab{
   width: 20rem;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
+  margin-right: 0.8rem;
 }
 .texto-familiar h2 {
 font-size: 2.5rem;
@@ -534,7 +605,7 @@ width: 45rem;
   font-size: 1.7rem;
 }
 .compromiso p{
-  font-size: 1.7rem;
+  font-size: 1.9rem;
 }
 .titulo-planes h2{
   font-size: 4rem;

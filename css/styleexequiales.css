@@ -371,6 +371,13 @@ transform: rotate(-45deg) translate(-8px, 6px);
     .fondo{
         height: 33rem;
     }
+    .footer{
+        height: 13rem;
+    }
+    .hamburguer{
+        transform: translateX(255px);
+    }
+    
 }
 /* Tablets */
 @media screen and (min-width:701px) and (max-width:1023px){
@@ -468,7 +475,7 @@ transform: rotate(-45deg) translate(-8px, 6px);
         left: -20rem;
     }
     .frase{
-        font-size: 1.7rem;
+        font-size: 1.9rem;
     }
     .contacto-exequiales {
         height: 52rem;

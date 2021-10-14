@@ -220,9 +220,26 @@ transform: rotate(-45deg) translate(-8px, 6px);
     color: #ffff;
     font-family: 'Coolvetica-hv';
     animation: glow 2500ms linear infinite 2000ms;    
-
-
-
+}
+#contenido-1{
+    margin-top: 15rem;
+}
+#contenido-1{
+    background: #c51720 !important;
+    width: 28rem;
+    padding-left: 3rem;
+    border-radius: 2.8rem;
+    transform: translateX(-1px);
+    color: #ffff;
+    font-family: 'Coolvetica-bk';
+    animation: glow 2500ms linear infinite 2000ms; 
+    margin-left: 5rem;  
+    width: 35rem;
+    border: 1px solid #9a131a; /* Color del borde, debe ser más oscuro que fondo */
+	box-shadow: inset -2px 3px 4px rgb(255 255 255 / 70%), inset -2px -9px 3px rgb(0 0 0 / 10%), 2px 2px 10px rgb(0 0 0 / 10%)
+	}
+#contenido-1 h2{
+font-size: 3rem;
 }
 .contenido h4{
     padding-left: 3rem;
@@ -231,8 +248,6 @@ transform: rotate(-45deg) translate(-8px, 6px);
     font-family: 'Coolvetica-hv';
 
 }
-
-
 .contenido p{
     padding-left: 3rem;
     color: black;
@@ -714,6 +729,13 @@ background-color:#132263 !important;
     .contenido{
         margin-top: 5rem;
     }
+    #contenido-1{
+        width: 20rem;
+        margin-left: 2rem;
+    }
+    #contenido-1 h2{
+        font-size: 1.6rem;
+    }
     .contenido h4{
         font-size: 1.6rem;
         padding-left: 2rem;
@@ -742,14 +764,23 @@ background-color:#132263 !important;
         height: 574.5px !important;
         width: 747px !important;
     }
+    #splide01-slide04{
+        height: 574.5px !important;
+        width: 747px !important;
+    }
+    .contenido3{
+        width: 20rem;
+    }
     .contenido3 h2{
         font-size: 1.8rem;
         transform: translateX(18px);
+        color: #fff;
     }
 
     .contenido3 h3{
         font-size: 1.7rem;
         transform: translateX(-3px);
+        color: #ffff;
     }
     .imagen-manos{
         display: none;
@@ -925,6 +956,13 @@ background-color:#132263 !important;
     .contenido{
         margin-top: 3rem;
     }
+    #contenido-1 {
+        width: 17rem;
+        margin-left: 1.3rem;
+    }
+    #contenido-1 h2 {
+        font-size: 1.2rem;
+    }
     .contenido p{
         width: 17rem;
     }
@@ -976,7 +1014,9 @@ background-color:#132263 !important;
     .hamburguer{
         transform: translateX(252px);
     }
-    
+    .footer{
+        height: 13rem;
+    }
 }
 
 
@@ -1122,7 +1162,13 @@ width: 14rem;
 .contenido{
     margin-top: 24rem;
 }
-
+#contenido-1{
+    margin-top: 24rem;
+    width: 45rem;
+}
+#contenido-1 h2{
+font-size: 4.1rem;
+}
 .contenido h4{
     padding-left: 3rem;
     font-size: 3.3rem;
@@ -1193,7 +1239,9 @@ width: 14rem;
 .col-lg-3.col-md-4.col-sm-12.col-xs-12.col-xl-3{
     margin-right: 2rem !important;
 }
-
+.texto-compromiso span{
+    font-size: 1.9rem;
+}
 }
 
 /* Pantallas extra-grande */

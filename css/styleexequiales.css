@@ -232,6 +232,7 @@ transform: rotate(-45deg) translate(-8px, 6px);
 .texto-icono{
     text-align: right;
 }
+
 .titulo-contacto{
     color: #be2224;
     font-family: 'Coolvetica-hv';
@@ -258,8 +259,9 @@ transform: rotate(-45deg) translate(-8px, 6px);
 .frase{
     padding-top: 3rem;
     color: #132263;
-    font-size: 1.3rem;
+    font-size: 2rem;
     opacity: 0.9;
+    font-weight: 700;
     font-family: 'Coolvetica-italic';
 }
 .lupa img{
@@ -488,6 +490,9 @@ transform: rotate(-45deg) translate(-8px, 6px);
     }
     #imagenes{
         margin-top: 9rem;
+    }
+    .frase{
+        font-size: 2.7rem;
     }
 }
 /* Pantallas extra-grande */

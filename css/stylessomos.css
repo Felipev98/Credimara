@@ -354,7 +354,7 @@ transform: scale(1.1);
     font-family: 'Coolvetica-bk';
 }
 .texto-contacto3{
-        font-size: 1.3rem;
+        font-size: 2rem;
         color: #132263;
         font-family: 'Coolvetica-regular';
     
@@ -502,7 +502,8 @@ transform: scale(1.1);
     text-align: center;
 }
 .texto-compromiso2 span{
-    font-size: 1.6rem;
+    font-size: 2rem;
+    font-weight: 700;
     color: #132263;
     font-style: italic;
     width: 44%;
@@ -558,7 +559,7 @@ transform: scale(1.1);
         margin-top: 0.5rem;
     }
     .texto-compromiso2 span{
-        font-size: 1.8rem;
+        font-size: 2.7rem;
     }
     .nav-item{
         font-size: 1.2rem;
@@ -605,6 +606,13 @@ transform: scale(1.1);
     }
     .texto-contacto3{
         font-size: 2.3rem;
+    }
+    .texto-contacto3 p{
+        font-size: 3rem;
+    }
+    .correo{
+            margin-top: 1.5rem;
+    font-size: 3rem;
     }
 }
 @media screen and (max-width:700px){
@@ -755,6 +763,7 @@ transform: scale(1.1);
         height: 36rem;
     }
 }
+
 @media screen and (min-width:2200px){
     .telefono2 img{
         left: 33rem !important;

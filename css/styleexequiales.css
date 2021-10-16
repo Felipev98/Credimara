@@ -200,7 +200,7 @@ transform: rotate(-45deg) translate(-8px, 6px);
      font-family: 'Coolvetica-hv';
 }
 .footer{
-    height: 12rem;
+    height: 13rem;
     background-color: #b92121;
   }
 .texto-footer{
@@ -262,7 +262,7 @@ transform: rotate(-45deg) translate(-8px, 6px);
     font-size: 2rem;
     opacity: 0.9;
     font-weight: 700;
-    font-family: 'Coolvetica-italic';
+    font-family: 'Coolvetica-bk';
 }
 .lupa img{
     width: 27rem;

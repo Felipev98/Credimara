@@ -296,12 +296,11 @@ span.quien{
       margin-top: 1rem;
       font-family: 'Coolvetica-bk';
         color: #132263;
-        font-style: italic;
         font-weight: 700;
         font-size: 2rem;
   }
   .footer{
-    height: 12rem;
+    height: 13rem;
     background-color: #b92121;
   }
 .texto-footer{

@@ -213,9 +213,7 @@ transform: rotate(-45deg) translate(-8px, 6px);
 }
 .texto-somos p{
     font-family: 'Coolvetica-bk';
-    color: #474747 !important;
-    opacity: 0.8;
-
+    color: black !important;
 }
 .titulo-somos h2{
     font-family: 'Coolvetica-hv';
@@ -394,7 +392,7 @@ transform: scale(1.1);
     font-family: 'Coolvetica-bk';
 }
 .footer{
-    height: 12rem;
+    height: 13rem;
     background-color: #b92121;
   }
 .texto-footer{
@@ -505,7 +503,6 @@ transform: scale(1.1);
     font-size: 2rem;
     font-weight: 700;
     color: #132263;
-    font-style: italic;
     width: 44%;
     font-family: 'Coolvetica-bk';
 }

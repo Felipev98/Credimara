@@ -225,7 +225,7 @@ transform: rotate(-45deg) translate(-8px, 6px);
     margin-top: 15rem;
 }
 #contenido-1{
-    background: #c51720 !important;
+    background: #132263 !important;
     width: 28rem;
     padding-left: 3rem;
     border-radius: 2.8rem;
@@ -234,12 +234,12 @@ transform: rotate(-45deg) translate(-8px, 6px);
     font-family: 'Coolvetica-bk';
     animation: glow 2500ms linear infinite 2000ms; 
     margin-left: 5rem;  
-    width: 35rem;
-    border: 1px solid #9a131a; /* Color del borde, debe ser más oscuro que fondo */
+    width: 31rem;
+    border: 1px solid #0F1B50; /* Color del borde, debe ser más oscuro que fondo */
 	box-shadow: inset -2px 3px 4px rgb(255 255 255 / 70%), inset -2px -9px 3px rgb(0 0 0 / 10%), 2px 2px 10px rgb(0 0 0 / 10%)
 	}
 #contenido-1 h2{
-font-size: 3rem;
+font-size: 2.7rem;
 }
 .contenido h4{
     padding-left: 3rem;
@@ -400,7 +400,7 @@ background-color:#243EAC ;
   .card-text{
     text-align: left;
     font-size:0.8rem;
-    opacity:80%;
+    color: black;
     font-family: 'Georema-rg';
 
   }
@@ -562,48 +562,7 @@ background-color:#243EAC ;
     left: 7rem;
     top: 2.2rem;
 }
-/* .formulario{
-    height: 60vh;
-    background-image: url('../img/formulario-fondo.png');
-    background-size: cover;
-    background-position: center;
-}
-.input{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 2rem;
-}
-.input input{
-    width: 24%;
-    outline: none;
-    border: none;
-    padding: 0.8rem;
-    border-radius: 1.8rem;
-}
-.text-area{
-    margin-left: 5rem;
-    margin-top: 2rem;
-}
-.text-area textarea{
-    width: 92%;
-    border-radius: 1.8rem;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    outline: none;
-    padding-left: 1rem;
-}
-.boton-enviar{
-    text-align: right;
-    width: 60rem;
-}
-.boton-enviar button{
-    width: 8rem;
-    outline: none;
-    border: 1px solid white;
-    background: transparent;
-    border-radius: 1.3rem;
-    color: white;
-} */
+
 .compromiso{
     height: 20vh;
     background-image: url('../img/fondo-manos.png');
@@ -620,13 +579,12 @@ background-color:#243EAC ;
 .texto-compromiso span{
     font-size: 2rem;
     color: #132263;
-    font-style: italic;
     width: 44%;
     font-weight: 700;
     font-family: 'Coolvetica-bk';
 }
 .footer{
-    height: 12rem;
+    height: 13rem;
     background-color: #b92121;
   }
 .texto-footer{
@@ -1165,10 +1123,10 @@ width: 14rem;
 }
 #contenido-1{
     margin-top: 24rem;
-    width: 45rem;
+    width: 40rem;
 }
 #contenido-1 h2{
-font-size: 4.1rem;
+font-size: 3.6rem;
 }
 .contenido h4{
     padding-left: 3rem;
@@ -1245,6 +1203,13 @@ font-size: 4.1rem;
 }
 .titulo-años p:first-child {
 width: 79%;
+}
+.card-text{
+    text-align: justify;
+    letter-spacing: 0.021em;
+}
+#valores{
+    letter-spacing: 0.041em;
 }
 }
 

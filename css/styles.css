@@ -476,7 +476,7 @@ background-color:#243EAC ;
     width: 9rem;
 }
 .texto-razones{
-    width: 14rem;
+    width: 20rem;
     text-align: center;
     margin: auto;
     font-family: 'Coolvetica-regular';
@@ -910,7 +910,7 @@ background-color:#132263 !important;
         margin-left: 4rem;
     }
 }
-@media screen and (min-width:1300px) and (max-width:1399px){
+@media screen and (min-width:1200px) and (max-width:1399px){
     #valores{
         letter-spacing: 0.040rem;
         width: 13rem;
@@ -920,12 +920,6 @@ background-color:#132263 !important;
     }
     .texto-razones{
         text-align: justify;
-    }
-    #razones-1{
-        width: 13rem;
-    }
-    #razones-text{
-        width: 15rem;
     }
 }
 @media screen and (min-width:250px) and (max-width:350px){
@@ -1272,7 +1266,6 @@ width: 79%;
     }
     #razones-text{
         letter-spacing: 0.061em;
-        width: 12rem;
     }
 }
 /* Pantallas extra-grande */

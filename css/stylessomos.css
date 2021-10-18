@@ -620,13 +620,16 @@ transform: scale(1.1);
     .contacto2{
         height: 106vh;
     }
+    .correo{
+        text-align: center;
+    }
 }
 @media screen and (min-width:701px) and (max-width:1200px){
     .fondo{
         height: 100vh;
     }
 }
-@media screen and (min-width:250px) and (max-width:350px){
+@media screen and (min-width:250px) and (max-width:360px){
     .fondo{
         height: 99rem !important;
     }
@@ -637,7 +640,7 @@ transform: scale(1.1);
         transform: translateX(255px);
     }
     .contacto2{
-        height: 50rem !important;
+        height: 60rem !important;
     }
 }
 /* Inicio MediaQuerie Contacto */

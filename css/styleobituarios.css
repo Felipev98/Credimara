@@ -360,7 +360,7 @@ i{
         margin-left: 0rem;
     }
 }
-@media screen and (min-width:250px) and (max-width:340px){
+@media screen and (min-width:250px) and (max-width:360px){
     input{
         width: 10rem;
     }

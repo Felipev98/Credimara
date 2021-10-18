@@ -214,6 +214,7 @@ transform: rotate(-45deg) translate(-8px, 6px);
 .texto-somos p{
     font-family: 'Coolvetica-bk';
     color: black !important;
+    text-align: justify;
 }
 .titulo-somos h2{
     font-family: 'Coolvetica-hv';
@@ -630,7 +631,7 @@ transform: scale(1.1);
         height: 99rem !important;
     }
     .footer{
-        height: 14rem;
+        height: 15rem;
     }
     .hamburguer{
         transform: translateX(255px);

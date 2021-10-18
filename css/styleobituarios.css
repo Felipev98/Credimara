@@ -365,7 +365,7 @@ i{
         width: 10rem;
     }
     .footer{
-        height: 13rem;
+        height: 15rem;
     }
     .hamburguer{
         transform: translateX(255px);
@@ -399,5 +399,11 @@ i{
     .titulo-obituario{
         font-size: 3rem;
     }
+
+}
+@media screen and (min-width:2400px) {
+.mdn{
+    height: 6rem;
+}
 
 }

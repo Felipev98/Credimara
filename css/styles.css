@@ -253,7 +253,6 @@ font-size: 2.7rem;
     color: black;
     font-size: 1.8rem;
     font-family: 'Coolvetica-regular';
-    opacity: 0.8;
 
 }
 .contenido2{
@@ -398,9 +397,10 @@ background-color:#243EAC ;
 
   }
   .card-text{
-    text-align: left;
+    text-align: justify;
     font-size:0.8rem;
     color: black;
+    font-weight: 600;
     font-family: 'Georema-rg';
 
   }
@@ -459,6 +459,7 @@ background-color:#243EAC ;
 .texto-años p{
     color: white;
     font-family: 'Coolvetica-bk';
+    text-align: justify;
 }
 .razones{
     height: 90vh;
@@ -478,9 +479,10 @@ background-color:#243EAC ;
     text-align: center;
     margin: auto;
     font-family: 'Coolvetica-regular';
+    font-weight: 600;
 }
 .texto-razones span{
-    color: #474747;
+    color: black;
 }
 .testimonios{
     height: 80vh;
@@ -629,9 +631,14 @@ font-family: 'Coolvetica-regular';
 }
 .splide__slide__containerr span{
     font-family: 'Coolvetica-lt';
+    font-weight: 600;
 }
 .splide__slide__container span{
     font-family: 'Coolvetica-lt';
+    font-weight: 600;
+}
+.texto{
+    text-align: justify;
 }
 .splide__slide__container h4{
 color:#132263 ;
@@ -810,6 +817,9 @@ background-color:#132263 !important;
     #splide01-slide03{
         height: 576px !important;
     }
+    #splide01-slide04{
+        height: 576px !important;
+    }
     .contenido2{
         left: 42%;
     }
@@ -846,6 +856,9 @@ background-color:#132263 !important;
         height: 576px !important;
     }
     #splide01-slide03{
+        height: 576px !important;
+    }
+    #splide01-slide04{
         height: 576px !important;
     }
     .nosotros{
@@ -886,6 +899,24 @@ background-color:#132263 !important;
     }
     .navbar-brand img{
         margin-right: 2rem;
+    }
+}
+@media screen and (min-width:1300px) and (max-width:1399px){
+    #valores{
+        letter-spacing: 0.040rem;
+        width: 13rem;
+    }    
+    #card-3{
+        padding-bottom: 2rem;
+    }
+    .texto-razones{
+        text-align: justify;
+    }
+    #razones-1{
+        width: 13rem;
+    }
+    #razones-text{
+        width: 15rem;
     }
 }
 @media screen and (min-width:250px) and (max-width:350px){
@@ -975,7 +1006,7 @@ background-color:#132263 !important;
         transform: translateX(252px);
     }
     .footer{
-        height: 13rem;
+        height: 15rem;
     }
 }
 
@@ -1211,8 +1242,29 @@ width: 79%;
 #valores{
     letter-spacing: 0.041em;
 }
+.texto-razones{
+    text-align: justify;
 }
-
+}
+@media screen and (min-width:1400px) and (max-width:1499px){
+    #card-3{
+        padding-bottom: 2rem;
+    }
+    #card-1{
+        padding-bottom: 1rem !important;
+    }
+    .texto-razones{
+        text-align: justify;
+        letter-spacing: 0.041em;
+    }
+    #razones-2{
+        letter-spacing: 0.081em;
+    }
+    #razones-text{
+        letter-spacing: 0.061em;
+        width: 12rem;
+    }
+}
 /* Pantallas extra-grande */
 @media screen and (min-width:2400px) {
     .imagen-manos img{
@@ -1228,13 +1280,51 @@ width: 79%;
         margin-left: 7rem;
     }
     .splide__track{
-        height: 56.2rem;
+        height: 62.2rem;
     }
     #splide_trackk{
         height: 40rem !important;
     }
     .col-lg-3.col-md-4.col-sm-12.col-xs-12.col-xl-3{
         margin-right: 2rem !important;
+    }
+    #contenido-1{
+        width: 60rem;
+    }
+    #contenido-1 h2{
+        font-size: 5.6rem;
+    }
+    .contenido h2{
+        font-size: 5.6rem;
+        width: 60rem;
+    }
+    .contenido h4{
+        font-size: 4rem;
+    }
+    .contenido p{
+        font-size: 3rem;
+    }
+    .contenido2 h2{
+        font-size: 5.6rem;
+    }
+    .contenido2 h4{
+        font-size: 4.3rem;
+    }
+    .contenido2 p{
+        font-size: 2.8rem;
+    }
+    .contenido3 h2{
+        font-size: 5.6rem;
+    }
+    .contenido3 h3{
+        font-size: 3.5rem;
+    }
+    .boton{
+        width: 95%;
+    }
+    .boton button{
+        width: 30rem;
+        font-size: 2.9rem;
     }
 }
 

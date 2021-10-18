@@ -186,8 +186,9 @@ transform: rotate(-45deg) translate(-8px, 6px);
 }
 .texto-exequiales p{
     font-family: 'Coolvetica-lt';
-    color: #434343;
-    opacity: 0.8;
+    color: black;
+    text-align: justify;
+    font-weight: 600;
 }
 .fondo-instalaciones{
     background-image: url('../img/fondo-instalaciones.png');
@@ -249,9 +250,8 @@ transform: rotate(-45deg) translate(-8px, 6px);
 }
 .texto-icono span{
     font-size: 1.1rem;
-    color: #3c3c3c;
+    color: black;
     font-family: 'Coolvetica-bk';
-    opacity: 0.8;
 }
 .titulo-contacto{
     padding-top: 2rem;
@@ -326,6 +326,7 @@ transform: rotate(-45deg) translate(-8px, 6px);
 .mdn a:hover{
     color: #FFC93E;
 }
+
 @media screen and (min-width:1000px){
     .hamburguer{
         display: none;
@@ -374,7 +375,7 @@ transform: rotate(-45deg) translate(-8px, 6px);
         height: 33rem;
     }
     .footer{
-        height: 13rem;
+        height: 15rem;
     }
     .hamburguer{
         transform: translateX(255px);

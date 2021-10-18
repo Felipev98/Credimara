@@ -321,7 +321,7 @@ color: #ffff;
     background-image: url('../img/planempresarial.webp');
   background-size: cover;
    background-position: center;
-  height: 103vh;
+  height: 110vh;
   padding-top: 4rem;
   }
   .tab-content-empresarial p{
@@ -356,8 +356,7 @@ color: #ffff;
 }
 .texto-empresariales p{
     font-family: 'Coolvetica-bk';
-    color: #494949;
-    opacity: 0.8;
+    color: black;
     font-size: 1.1rem;
 }
 .imagen-empresaria{
@@ -433,6 +432,9 @@ span#italic{
 @keyframes fadeEffect {
     from {opacity: 0;}
     to {opacity: 1;}
+}
+.texto-empresariales{
+  text-align: justify;
 }
 @media screen and (min-width:1000px){
   .hamburguer{

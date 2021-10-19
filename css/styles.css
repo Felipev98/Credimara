@@ -220,7 +220,7 @@ transform: rotate(-45deg) translate(-8px, 6px);
     color: #ffff;
     font-family: 'Coolvetica-hv';
     animation: glow 2500ms linear infinite 2000ms;
-    margin-left: 2.5rem;    
+    margin-left: 5.5rem;    
 }
 #contenido-1{
     margin-top: 15rem;
@@ -245,7 +245,7 @@ transform: rotate(-45deg) translate(-8px, 6px);
 font-size: 3rem;
 }
 .contenido h4{
-    padding-left: 3rem;
+    padding-left: 6.2rem;
     font-size: 2.5rem;
     color: #c51720;
     font-family: 'Coolvetica-hv';
@@ -253,7 +253,7 @@ font-size: 3rem;
 
 }
 .contenido p{
-    padding-left: 3rem;
+    padding-left: 6.2rem;
     color: black;
     font-size: 1.8rem;
     font-family: 'Coolvetica-regular';
@@ -683,6 +683,7 @@ background-color:#132263 !important;
         width: 17rem;
         font-size: 1.6rem;
         padding-left: 2rem;
+        margin-left: 1.5rem;
     }
     .contenido{
         margin-top: 5rem;
@@ -691,6 +692,7 @@ background-color:#132263 !important;
         width: 20rem;
         margin-left: 2rem;
         position: static;
+        margin-top: 8rem;
     }
     #contenido-1 h2{
         font-size: 1.6rem;
@@ -707,6 +709,7 @@ background-color:#132263 !important;
     #splide01-slide02{
         height: 574.5px !important;
     }
+
     .contenido2 h2{
         font-size: 2.4rem;
     }
@@ -840,7 +843,7 @@ background-color:#132263 !important;
     transform: translateX(700px);
 }
 #contenido-1{
-    margin-top: 10rem;
+    margin-top: 6rem;
     position: static;
 }
 }
@@ -897,7 +900,7 @@ background-color:#132263 !important;
         margin-right: 2rem;
     }
     #contenido-1{
-        margin-top: 10rem;
+        margin-top: 7rem;
         left: 44%;
     }
 }
@@ -1159,13 +1162,13 @@ width: 14rem;
 font-size: 4rem;
 }
 .contenido h4{
-    padding-left: 3rem;
+    padding-left: 9rem;
     font-size: 3.3rem;
     color: #c51720;
     line-height: 3rem;
 }
 .contenido p{
-    padding-left: 3rem;
+    padding-left: 9rem;
     color: black;
     font-size: 2.4rem;
     line-height: 2.5rem;
@@ -1227,7 +1230,8 @@ font-size: 4rem;
     font-size: 3.5rem;
     border-radius: 2.8rem;
      transform: translateX(-1px); 
-     color: #ffff; 
+     color: #ffff;
+     margin-left: 8rem; 
 }
 .col-lg-3.col-md-4.col-sm-12.col-xs-12.col-xl-3{
     margin-right: 2rem !important;
@@ -1300,7 +1304,7 @@ width: 79%;
     .contenido h2{
         font-size: 5.6rem;
         width: 49rem;
-        margin-left: 2.3rem;
+        margin-left: 8rem;
     }
     .contenido h4{
         font-size: 4rem;

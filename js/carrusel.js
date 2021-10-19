@@ -1,7 +1,7 @@
 
 new Splide( '.splide', {
 	type        : 'loop',
-	// autoplay    : true,
+	autoplay    : true,
 	pauseOnHover: false,
 	lazyLoad: 'nearby',
 	'cover'      : true,

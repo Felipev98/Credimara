@@ -310,22 +310,6 @@ transform: rotate(-45deg) translate(-8px, 6px);
 #imagenes-abajo{
     margin-top: 1rem;
 }
-.mdn{
-    text-align: center;
-    background: #132263;
-    padding: 0.8rem;
-    color: #ffff;
-    font-family: 'Coolvetica-regular';
-}
-.mdn a{
-    color: #ffb700;
-    text-decoration: none;
-    transition:  all 0.3s ease-in-out;
-
-}
-.mdn a:hover{
-    color: #FFC93E;
-}
 
 @media screen and (min-width:1000px){
     .hamburguer{

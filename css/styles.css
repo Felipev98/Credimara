@@ -212,14 +212,15 @@ transform: rotate(-45deg) translate(-8px, 6px);
 
 .contenido h2 {
     background: #132263;
-    width: 28rem;
-    padding-left: 3rem;
+    width: 22rem;
+    padding-left: 1rem;
     font-size: 2.5rem;
     border-radius: 2.8rem;
     transform: translateX(-1px);
     color: #ffff;
     font-family: 'Coolvetica-hv';
-    animation: glow 2500ms linear infinite 2000ms;    
+    animation: glow 2500ms linear infinite 2000ms;
+    margin-left: 2.5rem;    
 }
 #contenido-1{
     margin-top: 15rem;
@@ -233,7 +234,8 @@ transform: rotate(-45deg) translate(-8px, 6px);
     color: #ffff;
     font-family: 'Coolvetica-bk';
     animation: glow 2500ms linear infinite 2000ms; 
-    margin-left: 10rem;  
+    position: relative;
+    left: 55%;
     width: 35rem;
     border: 1px solid #0F1B50; /* Color del borde, debe ser más oscuro que fondo */
 	box-shadow: inset -2px 3px 4px rgb(255 255 255 / 70%), inset -2px -9px 3px rgb(0 0 0 / 10%), 2px 2px 10px rgb(0 0 0 / 10%);
@@ -247,6 +249,7 @@ font-size: 3rem;
     font-size: 2.5rem;
     color: #c51720;
     font-family: 'Coolvetica-hv';
+    line-height: 2.2rem;
 
 }
 .contenido p{
@@ -254,6 +257,7 @@ font-size: 3rem;
     color: black;
     font-size: 1.8rem;
     font-family: 'Coolvetica-regular';
+    line-height: 1.9rem;
 
 }
 .contenido2{
@@ -268,7 +272,9 @@ font-size: 3rem;
     color:#132263;
     font-family: 'Coolvetica-hv';
     animation: 
-    glow 2500ms linear infinite 2000ms;  
+    glow 2500ms linear infinite 2000ms;
+    line-height: 2.6rem;
+      
 }
 .contenido2 h4{
     background: #c51720;;
@@ -283,6 +289,7 @@ font-size: 3rem;
     color: #ffff;
     font-size: 1.8rem;
     font-family: 'Coolvetica-lt';
+    line-height: 1.9rem;
 
 }
 .contenido3{
@@ -648,23 +655,6 @@ font-family: 'Coolvetica-regular';
 .splide__pagination__page.is-active {
 background-color:#132263 !important;    
 }
-.mdn{
-    text-align: center;
-    background: #132263;
-    padding: 0.8rem;
-    color: #ffff;
-    font-family: 'Coolvetica-regular';
-
-}
-.mdn a{
-    color: #ffb700;
-    text-decoration: none;
-    transition:  all 0.3s ease-in-out;
-
-}
-.mdn a:hover{
-    color: #FFC93E;
-}
 
 /* Media Queries */
 /* Pantalla teléfonos */
@@ -700,6 +690,7 @@ background-color:#132263 !important;
     #contenido-1{
         width: 20rem;
         margin-left: 2rem;
+        position: static;
     }
     #contenido-1 h2{
         font-size: 1.6rem;
@@ -726,7 +717,7 @@ background-color:#132263 !important;
         font-size: 1.6rem;
     }
     .contenido2{
-        left: 10%;
+        left: 7%;
     }
     #splide01-slide03{
         height: 574.5px !important;
@@ -850,7 +841,7 @@ background-color:#132263 !important;
 }
 #contenido-1{
     margin-top: 10rem;
-    margin-left: 1rem;
+    position: static;
 }
 }
 @media screen and (min-width:1024px) and (max-width:1200px){
@@ -907,7 +898,7 @@ background-color:#132263 !important;
     }
     #contenido-1{
         margin-top: 10rem;
-        margin-left: 4rem;
+        left: 44%;
     }
 }
 @media screen and (min-width:1200px) and (max-width:1399px){
@@ -922,7 +913,7 @@ background-color:#132263 !important;
         text-align: justify;
     }
 }
-@media screen and (min-width:250px) and (max-width:350px){
+@media screen and (min-width:250px) and (max-width:360px){
     .titulo-años {
         width: 19rem;
     }
@@ -947,6 +938,9 @@ background-color:#132263 !important;
     .texto-compromiso span{
         font-size: 1.3rem;
     }
+    .texto-razones{
+        width: 16rem;
+    }
     .contenido{
         margin-top: 3rem;
     }
@@ -962,6 +956,7 @@ background-color:#132263 !important;
     }
     .contenido2{
         margin-top: 12rem;
+        left: 6%;
     }
     .contenido  h2{
         font-size: 1.6rem;
@@ -980,6 +975,7 @@ background-color:#132263 !important;
     }
     .contenido3{
         margin-top: 8rem;
+        width: 17rem;
     }
     .contenido3 h3 {
         font-size: 1.3rem;
@@ -1157,7 +1153,6 @@ width: 14rem;
 }
 #contenido-1{
     margin-top: 20rem;
-    margin-left: 17rem ;
     width: 43rem;
 }
 #contenido-1 h2{
@@ -1167,11 +1162,13 @@ font-size: 4rem;
     padding-left: 3rem;
     font-size: 3.3rem;
     color: #c51720;
+    line-height: 3rem;
 }
 .contenido p{
-    padding-left: 4rem;
+    padding-left: 3rem;
     color: black;
     font-size: 2.4rem;
+    line-height: 2.5rem;
 }
 .contenido2{
     position: relative;
@@ -1181,6 +1178,7 @@ font-size: 4rem;
 .contenido2 h2{
     font-size: 3.5rem;
     color:#132263;
+    line-height: 3.8rem;
 }
 .contenido2 h4{
     background: #c51720;;
@@ -1192,6 +1190,7 @@ font-size: 4rem;
 .contenido2 p{
     color: #ffff;
     font-size: 2.4rem;
+    line-height: 2.5rem;
 }
 .contenido3{
     text-align: right;
@@ -1223,8 +1222,8 @@ font-size: 4rem;
 }
 .contenido h2{
     background: #132263;
-    width: 36rem;
-    padding-left: 4rem;
+    width: 31rem;
+    padding-left: 1.4rem;
     font-size: 3.5rem;
     border-radius: 2.8rem;
      transform: translateX(-1px); 
@@ -1294,29 +1293,33 @@ width: 79%;
     #contenido-1{
         width: 60rem;
         margin-top: 22rem;
-    margin-left: 18rem;
     }
     #contenido-1 h2{
         font-size: 5.6rem;
     }
     .contenido h2{
         font-size: 5.6rem;
-        width: 55rem;
+        width: 49rem;
+        margin-left: 2.3rem;
     }
     .contenido h4{
         font-size: 4rem;
+        line-height: 4rem;
     }
     .contenido p{
         font-size: 3rem;
+        line-height: 2.9rem;
     }
     .contenido2 h2{
         font-size: 5.6rem;
+        line-height: 6.4rem;
     }
     .contenido2 h4{
         font-size: 4.3rem;
     }
     .contenido2 p{
         font-size: 2.8rem;
+        line-height: 3rem;
     }
     .contenido3 h2{
         font-size: 5.6rem;

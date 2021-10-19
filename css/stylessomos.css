@@ -26,6 +26,9 @@
     color: white !important;
     border-radius: 2rem;
 }
+.espacio{
+    padding-left: 0.2rem;
+}
 #navbarNav{
     justify-content: flex-end;
     margin-right: 5rem;
@@ -269,7 +272,7 @@ transform: scale(1.1);
     overflow: hidden;
 }
 .texto-contacto1{
-    padding-top: 4rem;
+    padding-top: 1rem;
 }
 /* Sticky Menú */
 .header.sticky{
@@ -470,6 +473,19 @@ transform: scale(1.1);
     left: 8rem;
     top: 5rem;
 }
+/* Redes Sociales Contacto */
+.redes-sociales-contacto{
+    text-align: center;
+    font-size: 1.8rem;
+}
+.redes-sociales-contacto i{
+    color: #b92121;
+    transition: all 0.3s ease-in-out;
+}
+.redes-sociales-contacto i:hover{
+    color: #132263;
+}
+/* Fin Redes sociales Contacto */
 /* Compromiso */
 .compromiso2{
     height: 20vh;
@@ -593,24 +609,33 @@ transform: scale(1.1);
         font-size: 3rem;
     }
     .correo{
-            margin-top: 1.5rem;
+    margin-top: 1.5rem;
     font-size: 3rem;
     }
-}
+    .redes-sociales-contacto{
+        font-size: 2.3rem;
+    } 
+   }
 @media screen and (max-width:700px){
     .texto-contacto3 p{
         text-align: center;
     }
     .contacto2{
-        height: 106vh;
+        height: 54rem;
     }
     .correo{
         text-align: center;
+    }
+    .telefono2{
+        display: none;
     }
 }
 @media screen and (min-width:701px) and (max-width:1200px){
     .fondo{
         height: 100vh;
+    }
+    .telefono2{
+        display: none;
     }
 }
 @media screen and (min-width:250px) and (max-width:360px){
@@ -697,7 +722,7 @@ transform: scale(1.1);
 }
 @media screen and (min-width:701px) and (max-width:1023px){
     .contacto2{
-        height: 73rem;
+        height: 41rem;
     }
     .google-maps{
         height: 34vh;
@@ -715,7 +740,7 @@ transform: scale(1.1);
 }
 @media screen and (min-width:1023px) and (max-width:1200px){
      .contacto2{
-        height: 73rem;
+        height: 41rem;
     }
     .google-maps{
         height: 25vh;

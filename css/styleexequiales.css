@@ -18,6 +18,9 @@
     font-family: 'Coolvetica-regular';
     src: url('../fonts/CoolveticaBk-Regular.otf');
 }
+.show{
+    transform: translateX(0px) !important;
+}
 .active{
     background-color: #be2124;;
     color: white !important;
@@ -80,17 +83,17 @@
     color: white;
     transition: .2s;
 }
-.show{
+.show-{
     z-index: 10;
     transform: translateX(125px);
 }
-.show .volver-arriba{
+.show- .volver-arriba{
     animation: popop .3s ease-in-out;
     width: 4rem;
     height: 4rem;
     z-index: 11;
 }
-.show i{
+.show- i{
     transform: translate(-50%,-50%) scale(1);
 }
 @keyframes popop {
@@ -324,7 +327,7 @@ transform: rotate(-45deg) translate(-8px, 6px);
 /* MediaQueries */
 @media screen and (max-width:700px){
     .fondo{
-        height: 30rem;
+        height: 31rem;
     }
     .titulo-instalaciones{
         text-align: center;
@@ -361,7 +364,7 @@ transform: rotate(-45deg) translate(-8px, 6px);
 }
 @media screen and (min-width:250px) and (max-width:360px){
     .fondo{
-        height: 33rem;
+        height: 37rem;
     }
     .footer{
         height: 15rem;
@@ -369,7 +372,9 @@ transform: rotate(-45deg) translate(-8px, 6px);
     .hamburguer{
         transform: translateX(255px);
     }
-    
+    .mobile-nav{
+        padding-top: 17px;
+    }
 }
 /* Tablets */
 @media screen and (min-width:701px) and (max-width:1023px){
@@ -442,12 +447,12 @@ transform: rotate(-45deg) translate(-8px, 6px);
         text-align: center;
     }
     .fondo{
-        height: 112rem;
+        height: 23rem;
     }
 }
 @media screen and (min-width:1500px){
     .fondo{
-        height: 25rem;
+        height: 26rem;
     }
     .titulo-exequiales h2{
         font-size: 2.6rem;

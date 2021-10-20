@@ -20,6 +20,9 @@
     src: url('../fonts/Georama-Regular.ttf');
 }
 /* Fin Fonts */
+.show{
+    transform: translateX(0px) !important;
+}
 .active{
     /* color: #be2124; */
     background-color: #be2124;
@@ -88,17 +91,17 @@
     color: white;
     transition: .2s;
 }
-.show{
+.show-{
     z-index: 10;
     transform: translateX(125px);
 }
-.show .volver-arriba{
+.show- .volver-arriba{
     animation: popop .3s ease-in-out;
     width: 4rem;
     height: 4rem;
     z-index: 11;
 }
-.show i{
+.show- i{
     transform: translate(-50%,-50%) scale(1);
 }
 @keyframes popop {
@@ -650,6 +653,9 @@ transform: scale(1.1);
     }
     .contacto2{
         height: 60rem !important;
+    }
+    .mobile-nav{
+        padding-top: 17px;
     }
 }
 /* Inicio MediaQuerie Contacto */

@@ -19,6 +19,9 @@
     src: url('../fonts/Georama-Regular.ttf');
 }
 /* Fin Fonts */
+.show{
+    transform: translateX(0px) !important;
+}
 .fondo{
     background-image: url('../img/fondo-obituarios .jpg');
     height: 56rem;
@@ -353,6 +356,9 @@ i{
     }
     .hamburguer{
         transform: translateX(255px);
+    }
+    .mobile-nav{
+        padding-top: 64px;
     }
 
 }

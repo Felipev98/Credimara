@@ -18,6 +18,29 @@
     font-family: 'Coolvetica-italic';
     src: url('../fonts/CoolveticaBk-Italic.otf');
 }
+.show{
+  transform: translateX(0px) !important;
+}
+.compromisox {
+  height: 20vh;
+  background-image: url(../img/fondo-manos.png);
+  background-size: cover;
+  background-position: center;
+}
+.texto-compromiso{
+  display: flex;
+  justify-content: center;
+  height: 20vh;
+  align-items: center;
+  text-align: center;
+}
+.texto-compromiso span{
+  font-size: 2rem;
+  color: #132263;
+  width: 44%;
+  font-weight: 700;
+  font-family: 'Coolvetica-bk';
+}
 .active{
   /* color: #be2124; */
   background-color: #be2124;
@@ -59,17 +82,17 @@
   color: white;
   transition: .2s;
 }
-.show{
+.show-{
   z-index: 10;
   transform: translateX(125px);
 }
-.show .volver-arriba{
+.show- .volver-arriba{
   animation: popop .3s ease-in-out;
   width: 4rem;
   height: 4rem;
   z-index: 11;
 }
-.show i{
+.show- i{
   transform: translate(-50%,-50%) scale(1);
 }
 @keyframes popop {
@@ -287,6 +310,8 @@ color: #ffff;
   }
   .titulo-planes{
     margin-top: 3rem;
+    position: relative;
+    z-index: -1;
   }
   .titulo-planes h2{
     font-family: 'Coolvetica-hv';
@@ -364,6 +389,8 @@ color: #ffff;
 }
 .imagen-empresaria{
     margin-top: 5rem;
+    position: relative;
+    z-index: -1;
 }
 .imagen-empresaria img{
   width: 26rem;
@@ -371,7 +398,7 @@ color: #ffff;
 
 /* Footer */
 .footer{
-    height: 13rem;
+    height: 14rem;
     background-color: #b92121;
   }
 .texto-footer{
@@ -393,7 +420,7 @@ color: #ffff;
     color: white;
 }
 .compromiso{
-    margin-top: 6.3rem;
+    margin-top: 5.3rem;
     text-align: center;
     background-color: #b92121;
     padding: 0.3rem;
@@ -493,6 +520,10 @@ height: 67rem;
 li.tab {
   margin-top: 1rem;
 }
+.texto-compromiso span{
+  width: 79%;
+  font-size: 1.3rem;
+}
 }
 /* Pantalla tablets */
 @media screen and (min-width:701px) and (max-width:1023px){
@@ -570,7 +601,7 @@ li.tab:nth-child(5){
   text-align: center;
 }
 .planes-empresariales{
-  height: 64rem;
+  height: 72rem;
 }
 .tab{
   margin-right: 1.1rem;
@@ -606,6 +637,9 @@ height: 68rem;
   #texto-ultimo{
     text-align: center;
   }
+  .mobile-nav{
+    padding-top: 17px;
+}
 }
 
 @media screen and (min-width:1500px){
@@ -670,5 +704,8 @@ li.tab:nth-child(4){
 }
 li.tab:nth-child(5){
   height: 8rem;
+}
+.texto-compromiso span{
+  font-size: 3.3rem;
 }
 }

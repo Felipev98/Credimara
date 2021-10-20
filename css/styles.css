@@ -20,7 +20,12 @@
     font-family: 'Georema-rg';
     src: url('../fonts/Georama-Regular.ttf');
 }
-
+.show{
+    transform: translateX(0px) !important;
+}
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    background: #c51720;
+}
 #navbarSupportedContent{
     background: #c51720;
     border-radius: 2rem;
@@ -178,17 +183,17 @@ transform: rotate(-45deg) translate(-8px, 6px);
     color: white;
     transition: .2s;
 }
-.show{
+.show-{
     z-index: 10;
     transform: translateX(125px);
 }
-.show .volver-arriba{
+.show- .volver-arriba{
     animation: popop .3s ease-in-out;
     width: 4rem;
     height: 4rem;
     z-index: 11;
 }
-.show i{
+.show- i{
     transform: translate(-50%,-50%) scale(1);
 }
 @keyframes popop {
@@ -927,7 +932,7 @@ background-color:#132263 !important;
         text-align: justify;
     }
 }
-@media screen and (min-width:250px) and (max-width:359px){
+@media screen and (min-width:250px) and (max-width:360px){
     .titulo-años {
         width: 19rem;
     }
@@ -1026,6 +1031,9 @@ background-color:#132263 !important;
     }
     .footer{
         height: 15rem;
+    }
+    .mobile-nav{
+        padding-top: 64px;
     }
 }
 @media screen and (min-width:360px) and (max-width:365px){

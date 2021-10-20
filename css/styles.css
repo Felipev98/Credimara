@@ -66,6 +66,9 @@ font-family:'Coolvetica-regular' ;
 .nav-item a:hover{
     color: #dbdbdb !important;
 }
+.dropdown-item:hover{
+    background-color: #132263 !important;
+}
 .nav-item:first-child{
     margin-left: 1.5rem;
 }

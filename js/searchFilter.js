@@ -1,5 +1,5 @@
 function myFunction() {
-    var input, filter, cards, cardContainer, title, i;
+    let input, filter, cards, cardContainer, title, i;
     input = document.getElementById("searchInput");
     filter = input.value.toUpperCase();
     cardContainer = document.getElementById("row-special");

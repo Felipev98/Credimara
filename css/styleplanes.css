@@ -325,7 +325,7 @@ color: #ffff;
     padding-top: 4rem;
     }
     .tab-content-nuevo4 {
-      background-image: url('../img/woman.jpg');
+      background-image: url('../img/imagen----3.png');
     background-size: cover;
      background-position: center;
     height: 109vh;
@@ -339,14 +339,14 @@ color: #ffff;
     padding-top: 4rem;
     }
   .tab-content-individuales{
-    background-image: url('../img/personalizado.webp');
+    background-image: url('../img/imagen--1.jpg');
   background-size: cover;
    background-position: center;
   height: 109vh;
   padding-top: 4rem;
   }
   .tab-content-empresarial{
-    background-image: url('../img/planempresarial.webp');
+    background-image: url('../img/imagen---2.jpg');
   background-size: cover;
    background-position: center;
   height: 110vh;

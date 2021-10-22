@@ -431,7 +431,7 @@ background-color:#243EAC ;
 
 .planes{
     height: 90vh;
-    background-image: url('../img/fondo-años.webp');
+    background-image: url('../img/fondo-anos.webp');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat
@@ -933,6 +933,11 @@ background-color:#132263 !important;
     }
     .texto-razones{
         text-align: justify;
+    }
+}
+@media screen and (min-width:1400px) and (max-width:1499px){
+    .splide__slide__containerr {
+        padding-bottom: 4rem;
     }
 }
 @media screen and (min-width:250px) and (max-width:360px){

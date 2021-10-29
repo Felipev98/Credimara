@@ -318,35 +318,35 @@ color: #ffff;
     color: #3b4b80;
   }
   .tab-content-familiar {
-      background-image: url('../img/familiarbasico.png');
+      background-image: url('../img/PLAN_FAMILIAR_BASICO.jpg');
     background-size: cover;
      background-position: center;
     height: 104vh;
     padding-top: 4rem;
     }
     .tab-content-nuevo4 {
-      background-image: url('../img/familiari.webp');
+      background-image: url('../img/PLAN_FAMILIAR_INTEGRAL.jpg');
     background-size: cover;
      background-position: center;
     height: 109vh;
     padding-top: 4rem;
     }
     .tab-content-nuevo5 {
-      background-image: url('../img/apoyo.webp');
+      background-image: url('../img/PLAN_FAMILIAR_DE_APOYO.jpg');
     background-size: cover;
      background-position: center;
     height: 100vh;
     padding-top: 4rem;
     }
   .tab-content-individuales{
-    background-image: url('../img/familiarmunicipal.webp');
+    background-image: url('../img/PLAN_FAMILIAR_MUNICIPAL.jpg');
   background-size: cover;
    background-position: center;
   height: 109vh;
   padding-top: 4rem;
   }
   .tab-content-empresarial{
-    background-image: url('../img/CREMACION.png');
+    background-image: url('../img/PLAN_FAMILIAR_CREMACIÓN.jpg');
   background-size: cover;
    background-position: center;
   height: 110vh;

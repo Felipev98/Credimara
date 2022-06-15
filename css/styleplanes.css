@@ -298,7 +298,7 @@ color: #ffff;
 .header.sticky{
   width: 100%;
   transition: 0.6s;
-  z-index: 999999;
+  z-index: 99;
   background-color: #ffff;
   height: 9rem;
   box-shadow: 0px 4px 4px rgb(0 0 0 / 30%);
@@ -346,7 +346,7 @@ color: #ffff;
   padding-top: 4rem;
   }
   .tab-content-empresarial{
-    background-image: url('../img/PLAN_FAMILIAR_CREMACIÓN.jpg');
+    background-image: url('../img/PLAN_FAMILIAR_CREMACION.jpg');
   background-size: cover;
    background-position: center;
   height: 110vh;
@@ -447,6 +447,70 @@ span#italic{
 }
 .texto-empresariales{
   text-align: justify;
+}
+.formulario-email{
+  display: flex;
+  flex-direction: column;
+}
+form.formulario-email {
+  margin-left: 0rem !important;
+}
+
+.formulario-email input{
+  padding: 0.5rem;
+    border-radius: 50px 50px 50px 50px;
+    background-color: #BEBEBE;
+    border: #BEBEBE;
+    outline: none;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.formulario-email textarea{
+  padding: 0.5rem;
+    background-color: #BEBEBE;
+    border: #BEBEBE;
+    outline: none;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.formulario-email label{
+  font-family: 'Coolvetica-hv';    
+
+}
+.formulario-email button{
+      padding: 1rem;
+      background: #132263;
+      border: none;
+      border-radius: 50px;
+      color: #ffff;
+      font-family: 'Coolvetica-hv';    
+  }
+.modal-content{
+  background: #EDEDED !important;
+    padding: 20px 40px 20px 40px !important;
+    box-shadow: 2px 8px 23px 3px rgb(0 0 0 / 20%) !important;
+    border-radius: 20px 20px 20px 20px !important;
+}
+.modal-title{
+  font-size: 1.5rem;
+  font-family: 'Coolvetica-hv';    
+  line-height: 1.2rem !important;
+}
+#boton-x{
+  margin-top: 0rem !important;
+  border: none;
+  background:#BEBEBE;
+  width: 4rem;
+
+}
+#actualizacion-contacto{
+  bottom: 9rem;
+}
+#actualizacion-icono{
+  font-size: 1.5rem;
+}
+.navbar-nav{
+  font-size: 0.9rem ;
 }
 @media screen and (min-width:1000px){
   .hamburguer{

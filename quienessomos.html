@@ -28,6 +28,40 @@
       </div>
     </a>
   </div>
+
+  <div class="modal fade" id="modal-team" tabindex="-1" role="dialog" aria-labelledby="modalteam-title" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalteam-title">¡ACTUALIZA TUS DATOS!</h5>
+          <button id="boton-x" type="button" class="close"  data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form class="formulario-email"  target="_blank" action="https://formsubmit.co/felipevargas989898@gmail.com"
+          method="POST" >
+          <input type="hidden" name="_subject" value="Nueva Actualización de datos!">
+            <label for="">Nombre</label>
+            <input required name="Nombre"  type="text">
+            <label  for="">Teléfono</label>
+            <input required name="Teléfono" 
+            type="number">                                                                                                  
+            <label  for="">Cédula</label>
+            <input required name="Cédula" 
+            type="number">
+            <label  for="">Email</label>
+            <input type="email" required name="Email">
+            <label  for="">Comentarios</label>
+          <textarea name="Comentarios" id="" cols="30" rows="3"></textarea>
+          <input type="hidden" name="_next" value="http://127.0.0.1:5500/thankyou.html">
+            <button type="submit">Enviar</button>
+            <input type="hidden" name="_captcha" value="false">
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
   <nav class="mobile-nav">
     <a href="./index.html">INICIO</a>
     <a href="#">QUIENES SOMOS</a>
@@ -69,6 +103,9 @@
               <li class="nav-item">
                 <a class="nav-link" href="./contacto.html">CONTACTO</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" style="cursor: pointer;"  data-bs-toggle="modal" data-bs-target="#modal-team">ACTUALIZACIÓN DATOS</a>
+              </li>
             </ul>
           </div>
         </div>
@@ -93,7 +130,7 @@
                     <div class="texto-somos">
                         <p>Funeraria, respaldados por una amplia experiencia y decididos a ofrecer soluciones innovadoras a la familia zuliana en ese difícil momento que es la partida de un familiar.</span></p>
                         <p>La visión era promover un nuevo sistema de servicio a la clase obrera y a los empleados de la región de menor poder adquisitivo en donde pudieran acceder a un servicio de calidad que les garantizara una despedida digna, mediante un plan que le proporcionara tranquilidad sin afectar sus finanzas y de la mano de una empresa responsable y honesta.</p>
-                        <p>Con más de 33 años en el ramo funerario y con las más variadas relaciones de negocios con empresas, movimientos sindicales y trabajadores; hemos persistido en este propósito y hemos asumido a lo largo de todo este tiempo las dificultades para hacerlo una realidad tangible para todos nuestros clientes que nos han acompañado y siguen confiando en nosotros.</p>
+                        <p>Con más de 34 años en el ramo funerario y con las más variadas relaciones de negocios con empresas, movimientos sindicales y trabajadores; hemos persistido en este propósito y hemos asumido a lo largo de todo este tiempo las dificultades para hacerlo una realidad tangible para todos nuestros clientes que nos han acompañado y siguen confiando en nosotros.</p>
                     </div>
                 </div>
             </div>

@@ -311,7 +311,73 @@ transform: rotate(-45deg) translate(-8px, 6px);
 #imagenes-abajo{
     margin-top: 1rem;
 }
+.formulario-email{
+    display: flex;
+    flex-direction: column;
+  }
+  form.formulario-email {
+    margin-left: 0rem !important;
+  }
+  
+  .formulario-email input{
+    padding: 0.5rem;
+      border-radius: 50px 50px 50px 50px;
+      background-color: #BEBEBE;
+      border: #BEBEBE;
+      outline: none;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+  }
+  .formulario-email textarea{
+    padding: 0.5rem;
+      background-color: #BEBEBE;
+      border: #BEBEBE;
+      outline: none;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+  }
+  .formulario-email label{
+    font-family: 'Coolvetica-hv';    
 
+  }
+  .formulario-email button{
+        padding: 1rem;
+        background: #132263;
+        border: none;
+        border-radius: 50px;
+        color: #ffff;
+        font-family: 'Coolvetica-hv';    
+    }
+  .modal-content{
+    background: #EDEDED !important;
+      padding: 20px 40px 20px 40px !important;
+      box-shadow: 2px 8px 23px 3px rgb(0 0 0 / 20%) !important;
+      border-radius: 20px 20px 20px 20px !important;
+  }
+  .modal-title{
+    font-size: 1.5rem;
+    font-family: 'Coolvetica-hv';    
+    line-height: 1.2rem !important;
+  }
+  #boton-x{
+    margin-top: 0rem !important;
+    border: none;
+    background:#BEBEBE;
+    width: 4rem;
+
+  }
+  .modal-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100 !important;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
+.navbar-nav{
+    font-size: 0.9rem ;
+}
 @media screen and (min-width:1000px){
     .hamburguer{
         display: none;

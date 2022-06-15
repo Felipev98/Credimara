@@ -68,6 +68,9 @@
                   <li class="nav-item">
                     <a class="nav-link"href="./contacto.html">CONTACTO</a>
                   </li>
+                     <li class="nav-item">
+                <a class="nav-link" style="cursor:pointer;"  data-bs-toggle="modal" data-bs-target="#modal-team">ACTUALIZACIÓN DATOS</a>
+              </li>
                 </ul>
               </div>
             </div>
@@ -82,6 +85,39 @@
           </div>
     </header>
     <main>
+      <div class="modal fade" id="modal-team" tabindex="-1" role="dialog" aria-labelledby="modalteam-title" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="modalteam-title">¡ACTUALIZA TUS DATOS!</h5>
+              <button id="boton-x" type="button" class="close"  data-bs-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <form class="formulario-email"  target="_blank" action="https://formsubmit.co/felipevargas989898@gmail.com"
+              method="POST" >
+              <input type="hidden" name="_subject" value="Nueva Actualización de datos!">
+                <label for="">Nombre</label>
+                <input required name="Nombre"  type="text">
+                <label  for="">Teléfono</label>
+                <input required name="Teléfono" 
+                type="number">                                                                                                  
+                <label  for="">Cédula</label>
+                <input required name="Cédula" 
+                type="number">
+                <label  for="">Email</label>
+                <input type="email" required name="Email">
+                <label  for="">Comentarios</label>
+              <textarea name="Comentarios" id="" cols="30" rows="3"></textarea>
+              <input type="hidden" name="_next" value="http://127.0.0.1:5500/thankyou.html">
+                <button type="submit">Enviar</button>
+                <input type="hidden" name="_captcha" value="false">
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
   <section class="planes">
       <ul class="tabs">
         <li data-tab-target="#familiar" class="active tab"><span id="titulo-tab">PLAN FAMILIAR BÁSICO</span>  </li>
@@ -101,7 +137,7 @@
                     <div class="texto-familiar">
                       <p>•	Prestación de servicios de velación a nivel nacional</p>
                       <p>•	Traslados a nivel regional</p>
-                      <p>•	Cofre o ataúd metálico</p>
+                      <p>•	Cofre o ataúd </p>
                       <p>•	Traslados desde la residencia, clínica, hospital o morgue, hasta el sitio del velorio, y de éste al cementerio donde se le dará sepultura</p>
                       <p>•	Preparación 24 horas (sólo por muerte natural) </p>
                       <p>•	Ornamento en la residencia</p>
@@ -126,7 +162,7 @@
                       <p>•	Propiedad de la bóveda (cementerio municipal) </p>
                       <p>•	Prestación de servicios correspondientes al plan a nivel nacional</p>
                       <p>•	Traslados a nivel regional</p>
-                      <p>•	Cofre o ataúd metálico</p>
+                      <p>•	Cofre o ataúd</p>
                       <p>•	Traslados desde la residencia, clínica, hospital o morgue, hasta el sitio del velorio, y de éste al cementerio donde se le dará sepultura
                       </p>
                       <p>•	Preparación 24 horas (sólo por muerte natural) </p>
@@ -154,7 +190,7 @@
                     <p>•	Servicio de cremación (solo en las ciudades donde exista la disponibilidad de crematorios)</p>
                     <p>•	Prestación de servicios correspondientes al plan a nivel nacional</p>
                     <p>•	Traslados a nivel regional</p>
-                    <p>•	Cofre o ataúd metálico</p>
+                    <p>•	Cofre o ataúd</p>
                     <p>•	Traslado desde la residencia, clínica, hospital o morgue, hasta el sitio del velorio, y de éste al cementerio donde se le dará sepultura</p>
                     <p>•	Preparación 24 horas (sólo por muerte natural)</p>
                     <p>•	Ornamento en la residencia</p>
@@ -179,7 +215,7 @@
                   <p>•	Propiedad de la bóveda (cementerio) o cremación</p>
                   <p>•	Prestación de servicios correspondientes al plan a nivel nacional</p>
                   <p>•	Traslados a nivel nacional</p>
-                  <p>•	Cofre o ataúd metálico</p>
+                  <p>•	Cofre o ataúd </p>
                   <p>•	Traslados desde la residencia, clínica, hospital o morgue, hasta el sitio del velorio, y de éste al cementerio donde se le dará sepultura</p>
                   <p>•	Preparación 24 horas (sólo por muerte natural) </p>
                   <p>•	Ornamento en la residencia</p>

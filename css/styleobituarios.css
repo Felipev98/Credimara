@@ -23,10 +23,7 @@
     transform: translateX(0px) !important;
 }
 .fondo{
-    background-image: url('../img/fondo-obituarios .jpg');
-    height: 56rem;
-    background-size: cover;
-    background-position: center;
+    background-color: #f6f6f6;
 }
 .active{
     /* color: #be2124; */
@@ -63,7 +60,7 @@
 .header.sticky{
     width: 100%;
     transition: 0.6s;
-    z-index: 999999;
+    z-index: 99;
     background-color: #ffff;
     height: 6rem;
     box-shadow: 0px 4px 4px rgb(0 0 0 / 30%);
@@ -235,7 +232,7 @@ span.quien{
     opacity: 0.8;
 }
 .nombre-d{
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     margin-top: 0.6rem;
     font-family: 'Coolvetica-regular';
     font-weight: 700;
@@ -316,7 +313,15 @@ input{
     position: relative;
     z-index: 9;
 }
-button{
+/* button{
+    background-color: #1f5ef6;
+    padding: 0.3rem;
+    width: 6rem;
+    transform: translateX(-40px);
+    border: none;
+    border-radius: 2rem !important;
+} */
+.boton-search{
     background-color: #1f5ef6;
     padding: 0.3rem;
     width: 6rem;
@@ -324,8 +329,69 @@ button{
     border: none;
     border-radius: 2rem !important;
 }
+
 i{
     color: #ffff;
+}
+.formulario-email{
+    display: flex;
+    flex-direction: column;
+  }
+  form.formulario-email {
+    margin-left: 0rem !important;
+  }
+  
+  .formulario-email input{
+    padding: 0.5rem;
+      border-radius: 50px 50px 50px 50px;
+      background-color: #BEBEBE;
+      border: #BEBEBE;
+      outline: none;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+  }
+  .formulario-email textarea{
+    padding: 0.5rem;
+      background-color: #BEBEBE;
+      border: #BEBEBE;
+      outline: none;
+      margin-top: 0.5rem;
+      margin-bottom: 1rem;
+  }
+  .formulario-email label{
+    font-family: 'Coolvetica-hv';    
+
+  }
+  .formulario-email button{
+
+    }
+    #button-modal {
+        padding: 1rem;
+        background: #132263;
+        border: none;
+        border-radius: 50px;
+        color: #ffff;
+        font-family: 'Coolvetica-hv';    
+    }
+  .modal-content{
+    background: #EDEDED !important;
+      padding: 20px 40px 20px 40px !important;
+      box-shadow: 2px 8px 23px 3px rgb(0 0 0 / 20%) !important;
+      border-radius: 20px 20px 20px 20px !important;
+  }
+  .modal-title{
+    font-size: 1.5rem;
+    font-family: 'Coolvetica-hv';    
+    line-height: 1.2rem !important;
+  }
+  #boton-x{
+    margin-top: 0rem !important;
+    border: none;
+    background:#BEBEBE;
+    width: 4rem;
+  }
+  .navbar-nav{
+    font-size: 0.9rem ;
 }
 @media screen and (min-width:1000px){
     .hamburguer{
@@ -337,7 +403,7 @@ i{
         padding-top: 1.1rem;
     }
     .fondo{
-        height: 100%;
+        height: auto;
     }
     .compromiso{
         margin-top: 2rem;
@@ -364,7 +430,7 @@ i{
 }
 @media screen and (min-width:701px) and (max-width:1024px){
     .fondo{
-        height: 93rem;
+        height: auto;
     }
     .hamburguer{
         transform: translateX(700px);
@@ -381,7 +447,7 @@ i{
         font-size: 2.7rem;
     }
     .fondo{
-        height: 58rem;
+        height: auto;
     }
     .search-filter span{
         font-size: 1.2rem;

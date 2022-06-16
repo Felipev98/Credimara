@@ -393,6 +393,18 @@ i{
   .navbar-nav{
     font-size: 0.9rem ;
 }
+.footer-texto{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffb700;
+    font-family: 'Coolvetica-lt';
+}
+.footer-texto a{
+    color: black !important;
+    text-decoration: none;
+}
 @media screen and (min-width:1000px){
     .hamburguer{
         display: none;

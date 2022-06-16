@@ -459,6 +459,18 @@ transform: scale(1.1);
     border-radius: 1.3rem;
     color: white;
 }
+.footer-texto{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffb700;
+    font-family: 'Coolvetica-lt';
+}
+.footer-texto a{
+    color: black !important;
+    text-decoration: none;
+}
 /* Google maps */
 .google-maps{
     height: 50vh;
@@ -574,6 +586,7 @@ transform: scale(1.1);
 .navbar-nav{
     font-size: 0.9rem ;
 }
+
 /* Media Queries */
 /* Contacto */
 @media screen and (min-width:1000px){

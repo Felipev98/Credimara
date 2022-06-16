@@ -728,7 +728,92 @@ background-color:#132263 !important;
     font-size: 1.5rem;
 }
 .navbar-nav{
-    font-size: 0.9rem ;
+    font-size: 0.8rem ;
+}
+.formulario{
+    height: 10rem;
+    background-image: url('../img/formulario-fondo.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.input{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2rem;
+}
+.input input{
+    width: 24%;
+    outline: none;
+    border: none;
+    padding: 0.8rem;
+    border-radius: 1.8rem;
+}
+.text-area{
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+.text-area textarea{
+    width: 92%;
+    border-radius: 1.8rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    outline: none;
+    padding-left: 1rem;
+}
+.boton-enviar{
+    text-align: right;
+    width: 60rem;
+}
+.titulo h4{
+    font-family: 'Coolvetica-hv';
+    color: white;
+}
+.actualiza-datos{
+    font-family: 'Coolvetica-hv';
+    color: white;
+}
+.actualiza-datos h4{
+    font-size: 2.5rem;
+}
+.actualiza-datos button{
+    width: 30%;
+    padding: 1rem;
+    border: none;
+    border-radius: 50px;
+    background-color: #c51720;
+    color: #ffff;
+    animation: beat .25s infinite alternate;
+    transition: all 0.3s ease-in-out;
+}
+
+@keyframes beat{
+	to { transform: scale(1.1); }
+}
+.boton-enviar button{
+    width: 8rem;
+    outline: none;
+    border: 1px solid white;
+    background: transparent;
+    border-radius: 1.3rem;
+    color: white;
+}
+.footer-texto{
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffb700;
+    font-family: 'Coolvetica-lt';
+}
+.footer-texto a{
+    color: black !important;
+    text-decoration: none;
+}
+.modal{
+    z-index: 9999999999 !important;
 }
 /* Media Queries */
 /* Pantalla teléfonos */
@@ -879,6 +964,42 @@ background-color:#132263 !important;
         width: 8.1rem;
         margin-left: 0rem;
     }
+    .input{
+        flex-direction: column;        
+        }
+        .input input{
+            margin: auto;
+            width: 100%;
+            margin-top: 1rem;
+        }
+        .text-area textarea{
+            width: 100%;
+        }
+        .text-area{
+            margin-left: 0rem;
+        }
+        .boton-enviar{
+            width: 15rem;
+        }
+        .formulario{
+            height: 34rem;
+        }
+        .texto-compromiso2 span{
+            width: 100%;
+            font-size: 1.4rem;
+        }
+        .footer-texto span{
+            font-size: 0.9rem;
+        }
+        .formulario{
+            height: 24rem;
+        }
+        .formulario h4{
+            font-size: 2rem;
+        }
+        .actualiza-datos button{
+            width: 80%;
+        }
 }
 /* Tablets */
 @media screen and (min-width:701px) and (max-width:1023px){
@@ -924,6 +1045,9 @@ background-color:#132263 !important;
 }
 #contenido-1{
     margin-top: 20rem;
+}
+.boton-enviar{
+    width: 60%;
 }
 }
 @media screen and (min-width:1024px) and (max-width:1200px){
@@ -985,6 +1109,9 @@ background-color:#132263 !important;
     #contenido-1 h2{
         margin-top: -4rem;
     }
+    .boton-enviar{
+        width: 60%;
+    }
 }
 @media screen and (min-width:1200px) and (max-width:1399px){
     #valores{
@@ -997,10 +1124,18 @@ background-color:#132263 !important;
     .texto-razones{
         text-align: justify;
     }
+    .boton-enviar{
+        width: 100%;
+        text-align: center;
+    }
 }
 @media screen and (min-width:1400px) and (max-width:1499px){
     .splide__slide__containerr {
         padding-bottom: 4rem;
+    }
+    .boton-enviar{
+        width: 100%;
+        text-align: center;
     }
 }
 @media screen and (min-width:250px) and (max-width:360px){
@@ -1136,7 +1271,7 @@ background-color:#132263 !important;
         max-height: 13.2rem;
     }
     .navbar-nav{
-        font-size: 1.3rem ;
+        font-size: 1.2rem ;
     }
     #navbarSupportedContent{
         justify-content: center;

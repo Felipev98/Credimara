@@ -18,6 +18,10 @@
     font-family: 'Coolvetica-italic';
     src: url('../fonts/CoolveticaBk-Italic.otf');
 }
+@font-face {
+  font-family: 'Coolvetica-lt';
+  src: url('../fonts/CoolveticaLt-Regular.otf');
+}
 .show{
   transform: translateX(0px) !important;
 }
@@ -511,6 +515,18 @@ form.formulario-email {
 }
 .navbar-nav{
   font-size: 0.9rem ;
+}
+.footer-texto{
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffb700;
+  font-family: 'Coolvetica-lt';
+}
+.footer-texto a{
+  color: black !important;
+  text-decoration: none;
 }
 @media screen and (min-width:1000px){
   .hamburguer{
